@@ -795,11 +795,13 @@ h1, h2, h3, h4, h5, h6 {
 svg.arrow {
   width: 50px;
   height: 50px;
+  cursor: pointer;
 }
 
 svg.arrow-mob {
   width: 55px;
   height: 55px;
+  cursor: pointer;
   display: none;
 }
 
@@ -809,11 +811,24 @@ svg.arrow-top {
   cursor: pointer;
 }
 
+svg.arrow-top-mob {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: none;
+}
+
 @media (max-width: 48.43625em) {
   svg.arrow {
     display: none;
   }
   svg.arrow-mob {
+    display: block;
+  }
+  svg.arrow-top {
+    display: none;
+  }
+  svg.arrow-top-mob {
     display: block;
   }
 }
@@ -3168,6 +3183,9 @@ svg.bag {
   padding: 9px 0;
   background: #f8f7f7;
 }
+.breadcrambs a {
+  color: #c1c1c1;
+}
 .breadcrambs .active {
   color: #3d3d3d;
 }
@@ -4018,7 +4036,7 @@ svg.bag {
     padding: 30px 0 39px;
     flex-direction: column;
     align-items: stretch;
-    gap: 29px;
+    gap: 0;
   }
   .catalog-header h1 {
     font-size: 1.5625rem;
@@ -4037,6 +4055,7 @@ svg.bag {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 29px;
   }
   .catalog-header__right-mob a {
     font-family: "MazzardH";
@@ -4054,17 +4073,28 @@ svg.bag {
     gap: 10px;
   }
   .catalog-header__right {
-    display: none;
+    visibility: hidden;
+  }
+  .catalog-header__right .catalog-header__select {
+    bottom: -100%;
+  }
+  .catalog-header__right .catalog-header__select .select {
+    padding: 0;
+    margin: 0;
+    font-size: 0rem;
+    border-bottom: 0;
+    border-radius: 0;
   }
   .catalog-header__right.open {
-    display: block;
+    visibility: visible;
   }
   .catalog-header__right.open .catalog-header__select {
+    transition: all 0.6s ease 0s;
     z-index: 20;
     position: fixed;
     width: 100%;
     height: 100%;
-    top: 0;
+    bottom: 0;
     left: 0;
     overflow-y: auto;
     overflow-x: hidden;
@@ -4102,12 +4132,12 @@ svg.bag {
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    border-radius: 100px;
     padding: 0 0 9px 3px;
     margin: 0 24px;
     border-bottom: 1px solid #e4e4e4;
     color: #3d3d3d;
     border-radius: 0;
+    font-size: 1rem;
   }
   .catalog-header__right.open .catalog-header__select .select svg {
     position: relative;
@@ -4138,7 +4168,13 @@ svg.bag {
     display: none;
   }
   .catalog-main aside {
-    display: none;
+    bottom: -100%;
+    transition: all 0.1s ease 0s;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background: #fff;
   }
   .catalog-main aside.open {
     display: -webkit-box;
@@ -4146,15 +4182,11 @@ svg.bag {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    z-index: 20;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+    transition: all 0.6s ease 0s;
+    bottom: 0;
+    right: 0;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #fff;
     gap: 20px;
   }
   .catalog-main aside.open .btn-white {
