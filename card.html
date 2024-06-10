@@ -1,0 +1,2968 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <title>Карточка товару</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="header__content container">
+    <div class="header__column">
+      <a href="catalog.html" class="header__catalogue">
+        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="5" height="5" rx="1" fill="#E93A53" />
+          <rect y="10" width="5" height="5" rx="1" fill="#E93A53" />
+          <rect x="10" y="10" width="5" height="5" rx="1" fill="#E93A53" />
+          <rect x="10" width="5" height="5" rx="1" fill="#E93A53" />
+        </svg>
+        <span>Каталог</span>
+      </a>
+      <nav class="header__nav">
+        <a href="##">Акції</a>
+        <a href="##">Новинки</a>
+        <a href="##">Про нас</a>
+        <a href="##">Блог</a>
+        <a href="##">Відгуки</a>
+        <a href="##">Контакти</a>
+      </nav>
+      <a href="index.html" class="header__logo">
+        <img src="img/logo.png" alt="logo" />
+      </a>
+    </div>
+    <div class="header__column">
+      <a href="##" class="header__constructor">Консутруктор</a>
+      <a href="##" class="header__search">
+        <svg
+          width="19"
+          height="19"
+          viewBox="0 0 19 19"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17.4697 18.5303C17.7626 18.8232 18.2374 18.8232 18.5303 18.5303C18.8232 18.2374 18.8232 17.7626 18.5303 17.4697L17.4697 18.5303ZM15.25 8.5C15.25 12.2279 12.2279 15.25 8.5 15.25V16.75C13.0563 16.75 16.75 13.0563 16.75 8.5H15.25ZM8.5 15.25C4.77208 15.25 1.75 12.2279 1.75 8.5H0.25C0.25 13.0563 3.94365 16.75 8.5 16.75V15.25ZM1.75 8.5C1.75 4.77208 4.77208 1.75 8.5 1.75V0.25C3.94365 0.25 0.25 3.94365 0.25 8.5H1.75ZM8.5 1.75C12.2279 1.75 15.25 4.77208 15.25 8.5H16.75C16.75 3.94365 13.0563 0.25 8.5 0.25V1.75ZM18.5303 17.4697L14.3428 13.2821L13.2821 14.3428L17.4697 18.5303L18.5303 17.4697Z"
+            fill="#242424"
+          />
+        </svg>
+      </a>
+      <div class="header__buttons">
+        <a href="##" class="header__btn">
+          <svg
+            width="22"
+            height="24"
+            viewBox="0 0 22 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.4876 23.2001C20.2279 18.615 18.7827 15.2715 10.7438 15.2715C2.70491 15.2715 1.25978 18.615 1 23.2001"
+              stroke="#242424"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+            <ellipse
+              cx="10.7445"
+              cy="5.75694"
+              rx="4.89685"
+              ry="4.75694"
+              stroke="#242424"
+              stroke-width="1.5"
+            />
+          </svg>
+        </a>
+        <a href="##" class="header__btn">
+          <svg
+            width="23"
+            height="19"
+            viewBox="0 0 23 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.52688 9.55034L11.3214 18L20.116 9.55034C21.0936 8.61103 21.6429 7.33706 21.6429 6.00867C21.6429 3.24246 19.3089 1 16.4297 1C15.0471 1 13.7212 1.5277 12.7435 2.46701L11.3214 3.83333L9.89933 2.46701C8.92169 1.5277 7.59571 1 6.21311 1C3.33399 1 1 3.24246 1 6.00867C1 7.33706 1.54923 8.61103 2.52688 9.55034Z"
+              stroke="#242424"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span>0</span>
+        </a>
+        <a href="##" class="header__btn">
+          <svg
+            width="19"
+            height="19"
+            viewBox="0 0 19 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+              stroke="#242424"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span>0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <main>
+        <svg display="none" xmlns="http://www.w3.org/2000/svg">
+          <symbol id="star" viewBox="0 0 20 19">
+            <path
+              d="M10 0L13.4092 5.3077L19.5106 6.90983L15.5161 11.7923L15.8779 18.0902L10 15.8L4.12215 18.0902L4.48387 11.7923L0.489435 6.90983L6.59085 5.3077L10 0Z"
+              fill="#F4A804"
+            />
+          </symbol>
+          <symbol id="bag" viewBox="0 0 41 41">
+            <rect width="41" height="41" rx="5" fill="#242424" />
+            <path
+              d="M12.8402 18.8104C12.9467 17.7839 13.8862 17 15.0097 17H25.9903C27.1138 17 28.0533 17.7839 28.1598 18.8104L28.99 26.8104C29.1118 27.9846 28.1057 29 26.8205 29H14.1795C12.8943 29 11.8882 27.9846 12.01 26.8104L12.8402 18.8104Z"
+              fill="#242424"
+            />
+            <path
+              d="M16.1414 20V16C16.1414 13.7909 18.0928 12 20.5 12C22.9072 12 24.8586 13.7909 24.8586 16V20M14.1795 29H26.8205C28.1057 29 29.1118 27.9845 28.99 26.8104L28.1598 18.8104C28.0533 17.7839 27.1139 17 25.9903 17H15.0097C13.8862 17 12.9467 17.7839 12.8402 18.8104L12.01 26.8104C11.8882 27.9846 12.8943 29 14.1795 29Z"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-prev"
+            viewBox="0 0 50 50"
+            width="50"
+            height="50"
+            fill="none"
+          >
+            <rect width="50" height="50" rx="5" fill="#E93A53" />
+            <path
+              d="M26.5547 30L21.2513 24.6967L26.5547 19.3933"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-next"
+            viewBox="0 0 50 50"
+            width="50"
+            height="50"
+            fill="none"
+          >
+            <rect width="50" height="50" rx="5" fill="#E93A53" />
+            <path
+              d="M23.75 20L29.0533 25.3033L23.75 30.6067"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-prev_40"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <rect width="40" height="40" rx="5" fill="#E93A53" />
+            <path
+              d="M21.2427 24L17 19.7573L21.2427 15.5146"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-next_40"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <rect width="40" height="40" rx="5" fill="#E93A53" />
+            <path
+              d="M19 16L23.2427 20.2427L19 24.4854"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-prev-mob"
+            width="55"
+            height="55"
+            viewBox="0 0 55 55"
+            fill="none"
+          >
+            <rect width="55" height="55" rx="5" fill="#E93A53" />
+            <path
+              d="M31 18L22 27.5L31 37"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-next-mob"
+            width="55"
+            height="55"
+            viewBox="0 0 55 55"
+            fill="none"
+          >
+            <rect
+              x="55"
+              y="55.002"
+              width="55"
+              height="55"
+              rx="5"
+              transform="rotate(180 55 55.002)"
+              fill="#E93A53"
+            />
+            <path
+              d="M24 37.002L33 27.502L24 18.002"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-top"
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+          >
+            <rect
+              x="22"
+              width="22"
+              height="22"
+              rx="3"
+              transform="rotate(90 22 0)"
+              fill="#E93A53"
+            />
+            <path
+              d="M8.7998 11.6836L11.1333 9.35012L13.4667 11.6836"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-top-mob"
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+          >
+            <rect
+              x="30"
+              width="30"
+              height="30"
+              rx="3"
+              transform="rotate(90 30 0)"
+              fill="#E93A53"
+            />
+            <path
+              d="M12 15.9316L15.182 12.7496L18.364 15.9316"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+        </svg>
+        <div class="breadcrambs">
+          <div class="container">
+            <span> <a href="index.html">Повернутися назад</a> / </span>
+            <span><a href="catalog.html">Автокрісла</a> / </span>
+            <span class="active">Автокрісло Cybex Cloud T i-Size Wings</span>
+          </div>
+        </div>
+        <div class="card-main container">
+          <div class="card-main__column">
+            <div class="card-main__image main-image">
+              <img src="img/card-image.jpg" alt="card-image" />
+              <div class="card-main__icons">
+                <div class="card-main__tag">
+                  <svg
+                    width="31"
+                    height="20"
+                    viewBox="0 0 31 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.71429 1H19C19.5523 1 20 1.44772 20 2V2.69643M27.4643 8.46429H21C20.4477 8.46429 20 8.01657 20 7.46428V2.69643M27.4643 8.46429L28.9289 10.2219C29.0787 10.4016 29.1607 10.6281 29.1607 10.862V15.6071C29.1607 16.1594 28.713 16.6071 28.1607 16.6071H26.1071M27.4643 8.46429L24.6924 3.22854C24.5191 2.90118 24.179 2.69643 23.8086 2.69643H20M19.6607 16.6071H13.8929M7.44643 16.6071H3.71429M8.125 12.1964H2.69643M10.5 8.46429H1M11.8571 4.73214H2.69643"
+                      stroke="#E93A53"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <circle
+                      cx="10.5003"
+                      cy="16.6077"
+                      r="2.39286"
+                      stroke="#E93A53"
+                      stroke-width="2"
+                    />
+                    <circle
+                      cx="22.7141"
+                      cy="16.6077"
+                      r="2.39286"
+                      stroke="#E93A53"
+                      stroke-width="2"
+                    />
+                  </svg>
+                  <span>Під замовлення</span>
+                </div>
+                <div class="card-main__icon-right">
+                  <img src="img/percentage.png" alt="percentage" />
+                  <img src="img/paw.png" alt="paw" />
+                </div>
+              </div>
+            </div>
+            <div class="card-main__image">
+              <img src="img/card-image2.jpg" alt="card-image" />
+            </div>
+            <div class="card-main__image">
+              <img src="img/card-image3.jpg" alt="card-image" />
+            </div>
+            <div class="card-main__image">
+              <img src="img/card-image4.jpg" alt="card-image" />
+            </div>
+          </div>
+          <div class="card-main__column">
+            <div class="shortstory">
+              <div class="shortstory__header">
+                <div class="shortstory__code">Код: 523000231</div>
+                <h1>Автокрісло Cybex Cloud T i-Size Wings</h1>
+                <p>
+                  Cloud T i-Size встановлює нові стандарти ергономічного
+                  комфорту. Одночасний нахил спинки та підставки для ніг
+                  забезпечує більш рівне положення дитини в автомобілі. У
+                  поєднанні з візочком, автокрісло можна відрегулювати до
+                  абсолютно горизонтального, лежачого положення.
+                </p>
+                <div class="shortstory__right">
+                  <div class="shortstory__rating">
+                    <div class="shortstory__stars">
+                      <svg class="star"><use xlink:href="#star"></use></svg>
+                      <svg class="star"><use xlink:href="#star"></use></svg>
+                      <svg class="star"><use xlink:href="#star"></use></svg>
+                      <svg class="star"><use xlink:href="#star"></use></svg>
+                      <svg class="star"><use xlink:href="#star"></use></svg>
+                    </div>
+                    <span>5.0 (9)</span>
+                  </div>
+                  <a href="##">
+                    <svg
+                      width="54"
+                      height="54"
+                      viewBox="0 0 54 54"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="54" height="54" rx="10" fill="#E93A53" />
+                      <path
+                        d="M16.7935 27.1498L27.1238 37.18L37.454 27.1498C38.6024 26.0347 39.2475 24.5225 39.2475 22.9456C39.2475 19.6619 36.506 17 33.1241 17C31.5001 17 29.9425 17.6264 28.7942 18.7414L27.1238 20.3633L25.4533 18.7414C24.305 17.6264 22.7475 17 21.1234 17C17.7415 17 15 19.6619 15 22.9456C15 24.5225 15.6451 26.0347 16.7935 27.1498Z"
+                        fill="#E93A53"
+                        stroke="white"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="shortstory__instalments">
+                <div class="shortstory__icons">
+                  <img src="img/percentage.png" alt="percentage" />
+                  <img src="img/paw.png" alt="paw" />
+                </div>
+                <span
+                  >Оплачуйте частинами від 5000 грн в місяць без вістотків</span
+                >
+                <a href="##" class="btn-white">Взяти в розстрочку</a>
+              </div>
+              <div class="shortstory__prices">
+                <div class="shortstory__price-column">
+                  <div class="shortstory__current-pirce">45 200 ₴</div>
+                  <div class="shortstory__old-pirce">60 200 ₴</div>
+                </div>
+                <div class="shortstory__price-column">
+                  <svg
+                    width="31"
+                    height="20"
+                    viewBox="0 0 31 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.71429 1H19C19.5523 1 20 1.44772 20 2V2.69643M27.4643 8.46429H21C20.4477 8.46429 20 8.01657 20 7.46428V2.69643M27.4643 8.46429L28.9289 10.2219C29.0787 10.4016 29.1607 10.6281 29.1607 10.862V15.6071C29.1607 16.1594 28.713 16.6071 28.1607 16.6071H26.1071M27.4643 8.46429L24.6924 3.22854C24.5191 2.90118 24.179 2.69643 23.8086 2.69643H20M19.6607 16.6071H13.8929M7.44643 16.6071H3.71429M8.125 12.1964H2.69643M10.5 8.46429H1M11.8571 4.73214H2.69643"
+                      stroke="#E93A53"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <circle
+                      cx="10.5003"
+                      cy="16.6077"
+                      r="2.39286"
+                      stroke="#E93A53"
+                      stroke-width="2"
+                    />
+                    <circle
+                      cx="22.7141"
+                      cy="16.6077"
+                      r="2.39286"
+                      stroke="#E93A53"
+                      stroke-width="2"
+                    />
+                  </svg>
+                  <span>Під замовлення</span>
+                </div>
+              </div>
+              <div class="shortstory__colection">
+                <h3>Кольори в наявності</h3>
+                <div class="shortstory__row">
+                  <a href="##" class="shortstory__card active">
+                    <div class="shortstory__image">
+                      <img src="img/color.jpg" alt="color-card" />
+                      <svg
+                        width="22"
+                        height="22"
+                        viewBox="0 0 22 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle cx="11" cy="11" r="11" fill="#E93A53" />
+                        <path
+                          d="M17 7L9.43756 15L6 11.3637"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <h4>Sepia Black Plus</h4>
+                  </a>
+                  <a href="##" class="shortstory__card">
+                    <div class="shortstory__image">
+                      <img src="img/color2.jpg" alt="color-card" />
+                    </div>
+                    <h4>Leaf Green Plus</h4>
+                  </a>
+                  <a href="##" class="shortstory__card">
+                    <div class="shortstory__image">
+                      <img src="img/color3.jpg" alt="color-card" />
+                    </div>
+                    <h4>Mirage Grey Plus</h4>
+                  </a>
+                  <a href="##" class="shortstory__card">
+                    <div class="shortstory__image">
+                      <img src="img/color4.jpg" alt="color-card" />
+                    </div>
+                    <h4>Platinum White Plus</h4>
+                  </a>
+                  <a href="##" class="shortstory__card">
+                    <div class="shortstory__image">
+                      <img src="img/color5.jpg" alt="color-card" />
+                    </div>
+                    <h4>Peach Pink Plus</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="shortstory__colection">
+                <h3>Колекція</h3>
+                <div class="shortstory__row">
+                  <a href="##" class="shortstory__card active">
+                    <div class="shortstory__image">
+                      <img src="img/color.jpg" alt="color-card" />
+                      <svg
+                        width="22"
+                        height="22"
+                        viewBox="0 0 22 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle cx="11" cy="11" r="11" fill="#E93A53" />
+                        <path
+                          d="M17 7L9.43756 15L6 11.3637"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <h4>Sepia Black Plus</h4>
+                  </a>
+                  <a href="##" class="shortstory__card">
+                    <div class="shortstory__image">
+                      <img src="img/color3.jpg" alt="color-card" />
+                    </div>
+                    <h4>Mirage Grey Plus</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="shortstory__buttons">
+                <a href="##" class="shortstory__btn-black">
+                  <span>Додати в кошик</span>
+                  <svg
+                    width="19"
+                    height="19"
+                    viewBox="0 0 19 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a href="##" class="shortstory__btn-red">
+                  Швидка оплата
+                  <svg
+                    width="22"
+                    height="18"
+                    viewBox="0 0 22 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8.94358 0.25H13.0564C14.8942 0.249984 16.3498 0.249972 17.489 0.403135C18.6614 0.560763 19.6104 0.89288 20.3588 1.64124C21.1071 2.38961 21.4392 3.33856 21.5969 4.51098C21.6873 5.18385 21.7244 5.9671 21.7395 6.87428C21.7464 6.91516 21.75 6.95716 21.75 7C21.75 7.03525 21.7476 7.06994 21.7429 7.1039C21.75 7.66962 21.75 8.28183 21.75 8.94359V9.05641C21.75 10.8942 21.75 12.3498 21.5969 13.489C21.4392 14.6614 21.1071 15.6104 20.3588 16.3588C19.6104 17.1071 18.6614 17.4392 17.489 17.5969C16.3498 17.75 14.8942 17.75 13.0564 17.75H8.94359C7.10583 17.75 5.65019 17.75 4.51098 17.5969C3.33856 17.4392 2.38961 17.1071 1.64124 16.3588C0.89288 15.6104 0.560763 14.6614 0.403135 13.489C0.249972 12.3498 0.249984 10.8942 0.25 9.05642V8.94358C0.249995 8.28182 0.249989 7.66961 0.257136 7.10388C0.252432 7.06993 0.250001 7.03525 0.250001 7C0.250001 6.95716 0.253592 6.91517 0.260489 6.87429C0.275642 5.96711 0.31267 5.18385 0.403135 4.51098C0.560763 3.33856 0.89288 2.38961 1.64124 1.64124C2.38961 0.89288 3.33856 0.560763 4.51098 0.403135C5.65019 0.249972 7.10582 0.249984 8.94358 0.25ZM1.75199 7.75C1.75009 8.13839 1.75 8.5541 1.75 9C1.75 10.9068 1.75159 12.2615 1.88976 13.2892C2.02502 14.2952 2.27869 14.8749 2.7019 15.2981C3.12511 15.7213 3.70476 15.975 4.71085 16.1102C5.73851 16.2484 7.09318 16.25 9 16.25H13C14.9068 16.25 16.2615 16.2484 17.2892 16.1102C18.2952 15.975 18.8749 15.7213 19.2981 15.2981C19.7213 14.8749 19.975 14.2952 20.1102 13.2892C20.2484 12.2615 20.25 10.9068 20.25 9C20.25 8.5541 20.2499 8.13839 20.248 7.75H1.75199ZM20.2239 6.25H1.77607C1.79564 5.66327 1.82987 5.15634 1.88976 4.71085C2.02502 3.70476 2.27869 3.12511 2.7019 2.7019C3.12511 2.27869 3.70476 2.02502 4.71085 1.88976C5.73851 1.75159 7.09318 1.75 9 1.75H13C14.9068 1.75 16.2615 1.75159 17.2892 1.88976C18.2952 2.02502 18.8749 2.27869 19.2981 2.7019C19.7213 3.12511 19.975 3.70476 20.1102 4.71085C20.1701 5.15634 20.2044 5.66327 20.2239 6.25ZM14.9553 9.25H15.0447C15.4776 9.24995 15.8744 9.2499 16.1972 9.2933C16.5527 9.34109 16.9284 9.45354 17.2374 9.76256C17.5465 10.0716 17.6589 10.4473 17.7067 10.8028C17.7501 11.1256 17.7501 11.5224 17.75 11.9553V12.0447C17.7501 12.4776 17.7501 12.8744 17.7067 13.1972C17.6589 13.5527 17.5465 13.9284 17.2374 14.2374C16.9284 14.5465 16.5527 14.6589 16.1972 14.7067C15.8744 14.7501 15.4776 14.7501 15.0447 14.75H14.9553C14.5224 14.7501 14.1256 14.7501 13.8028 14.7067C13.4473 14.6589 13.0716 14.5465 12.7626 14.2374C12.4535 13.9284 12.3411 13.5527 12.2933 13.1972C12.2499 12.8744 12.2499 12.4776 12.25 12.0447V11.9553C12.2499 11.5224 12.2499 11.1256 12.2933 10.8028C12.3411 10.4473 12.4535 10.0716 12.7626 9.76256C13.0716 9.45354 13.4473 9.34109 13.8028 9.2933C14.1256 9.2499 14.5224 9.24995 14.9553 9.25ZM13.8257 10.8219L13.8232 10.8232L13.8219 10.8257C13.8209 10.8276 13.8192 10.8309 13.8172 10.836C13.8082 10.8577 13.7929 10.9061 13.7799 11.0027C13.7516 11.2134 13.75 11.5074 13.75 12C13.75 12.4926 13.7516 12.7866 13.7799 12.9973C13.7929 13.0939 13.8082 13.1423 13.8172 13.164C13.818 13.1661 13.8188 13.1679 13.8195 13.1694C13.8205 13.1716 13.8213 13.1732 13.8219 13.1743L13.8232 13.1768L13.8257 13.1781C13.8276 13.1791 13.8309 13.1808 13.836 13.1828C13.8577 13.1918 13.9061 13.2071 14.0027 13.2201C14.2134 13.2484 14.5074 13.25 15 13.25C15.4926 13.25 15.7866 13.2484 15.9973 13.2201C16.0939 13.2071 16.1423 13.1918 16.164 13.1828C16.1691 13.1808 16.1724 13.1791 16.1743 13.1781L16.1768 13.1768L16.1781 13.1743C16.1791 13.1724 16.1808 13.1691 16.1828 13.164C16.1918 13.1423 16.2071 13.0939 16.2201 12.9973C16.2484 12.7866 16.25 12.4926 16.25 12C16.25 11.5074 16.2484 11.2134 16.2201 11.0027C16.2071 10.9061 16.1918 10.8577 16.1828 10.836C16.1816 10.833 16.1806 10.8307 16.1797 10.8288C16.1791 10.8275 16.1786 10.8265 16.1781 10.8257L16.1768 10.8232L16.1743 10.8219C16.1724 10.8209 16.1691 10.8192 16.164 10.8172C16.1423 10.8082 16.0939 10.7929 15.9973 10.7799C15.7866 10.7516 15.4926 10.75 15 10.75C14.5074 10.75 14.2134 10.7516 14.0027 10.7799C13.9061 10.7929 13.8577 10.8082 13.836 10.8172C13.8309 10.8192 13.8276 10.8209 13.8257 10.8219ZM4.25 10.5C4.25 10.0858 4.58579 9.75 5 9.75H7C7.41421 9.75 7.75 10.0858 7.75 10.5C7.75 10.9142 7.41421 11.25 7 11.25H5C4.58579 11.25 4.25 10.9142 4.25 10.5ZM13.8232 13.1768C13.8228 13.1764 13.823 13.1764 13.8232 13.1768C13.8236 13.177 13.8237 13.1772 13.8232 13.1768ZM16.1768 13.1768C16.1766 13.177 16.1767 13.1768 16.1768 13.1768V13.1768ZM4.25 13.5C4.25 13.0858 4.58579 12.75 5 12.75H9C9.41421 12.75 9.75 13.0858 9.75 13.5C9.75 13.9142 9.41421 14.25 9 14.25H5C4.58579 14.25 4.25 13.9142 4.25 13.5Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+                <a href="##" class="shortstory__btn-white">Купити в 1 клік</a>
+              </div>
+              <a href="##" class="shortstory__check">
+                <span>Перевірити наявність в шоурумі</span>
+                <svg
+                  width="6"
+                  height="11"
+                  viewBox="0 0 6 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L5.24268 5.24268L1 9.48535"
+                    stroke="#E93A53"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="relate">
+              <h2>Супутні товари</h2>
+              <article class="relate-slider">
+                <div class="relate-slider__gallary">
+                  <div class="relate-slider__wrapper swiper-wrapper">
+                    <section class="swiper-slide">
+                      <div class="relate-slider__image">
+                        <img src="img/catalog-card.png" alt="slide-photo" />
+                        <div class="relate-slider__icons">
+                          <div class="relate-slider__tag">
+                            <svg
+                              width="15"
+                              height="11"
+                              viewBox="0 0 15 11"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M14 1L5.06257 10L1 5.90911"
+                                stroke="#5EB04C"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                            <span>В наявності</span>
+                          </div>
+                          <div class="relate-slider__icon-right">
+                            <img src="img/percentage.png" alt="percentage" />
+                            <img src="img/paw.png" alt="paw" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="relate-slider__footer-card">
+                        <div class="relate-slider__rating">
+                          <div class="relate-slider__stars">
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                          </div>
+                          <span>5.0 (9)</span>
+                        </div>
+                        <h3 class="relate-slider__title">
+                          Дощовик для люльки Cybex Gazelle S 2023
+                        </h3>
+                        <div class="relate-slider__prices">
+                          <div class="relate-slider__current-pirce">
+                            17 200 ₴
+                          </div>
+                          <div class="relate-slider__old-pirce">20 200 ₴</div>
+                        </div>
+                        <a href="##" class="btn-black">
+                          В кошик
+                          <svg
+                            width="15"
+                            height="16"
+                            viewBox="0 0 15 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M4.15106 7.47767V4.23883C4.15106 2.45008 5.63583 1 7.46739 1C9.29895 1 10.7837 2.45008 10.7837 4.23883V7.47767M2.65831 14.765H12.2765C13.2544 14.765 14.0199 13.9428 13.9272 12.9921L13.2955 6.51442C13.2144 5.68328 12.4997 5.04854 11.6448 5.04854H3.29C2.43512 5.04854 1.72035 5.68328 1.6393 6.51443L1.00762 12.9921C0.914904 13.9428 1.68043 14.765 2.65831 14.765Z"
+                              stroke="white"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                    </section>
+                    <section class="swiper-slide">
+                      <div class="relate-slider__image">
+                        <img src="img/catalog-card.png" alt="slide-photo" />
+                        <div class="relate-slider__icons">
+                          <div class="relate-slider__tag">
+                            <svg
+                              width="15"
+                              height="11"
+                              viewBox="0 0 15 11"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M14 1L5.06257 10L1 5.90911"
+                                stroke="#5EB04C"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                            <span>В наявності</span>
+                          </div>
+                          <div class="relate-slider__icon-right">
+                            <img src="img/percentage.png" alt="percentage" />
+                            <img src="img/paw.png" alt="paw" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="relate-slider__footer-card">
+                        <div class="relate-slider__rating">
+                          <div class="relate-slider__stars">
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                          </div>
+                          <span>5.0 (9)</span>
+                        </div>
+                        <h3 class="relate-slider__title">
+                          Дощовик для люльки Cybex Gazelle S 2023
+                        </h3>
+                        <div class="relate-slider__prices">
+                          <div class="relate-slider__current-pirce">
+                            17 200 ₴
+                          </div>
+                          <div class="relate-slider__old-pirce">20 200 ₴</div>
+                        </div>
+                        <a href="##" class="btn-black">
+                          В кошик
+                          <svg
+                            width="15"
+                            height="16"
+                            viewBox="0 0 15 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M4.15106 7.47767V4.23883C4.15106 2.45008 5.63583 1 7.46739 1C9.29895 1 10.7837 2.45008 10.7837 4.23883V7.47767M2.65831 14.765H12.2765C13.2544 14.765 14.0199 13.9428 13.9272 12.9921L13.2955 6.51442C13.2144 5.68328 12.4997 5.04854 11.6448 5.04854H3.29C2.43512 5.04854 1.72035 5.68328 1.6393 6.51443L1.00762 12.9921C0.914904 13.9428 1.68043 14.765 2.65831 14.765Z"
+                              stroke="white"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                    </section>
+                    <section class="swiper-slide">
+                      <div class="relate-slider__image">
+                        <img src="img/catalog-card.png" alt="slide-photo" />
+                        <div class="relate-slider__icons">
+                          <div class="relate-slider__tag">
+                            <svg
+                              width="15"
+                              height="11"
+                              viewBox="0 0 15 11"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M14 1L5.06257 10L1 5.90911"
+                                stroke="#5EB04C"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                            <span>В наявності</span>
+                          </div>
+                          <div class="relate-slider__icon-right">
+                            <img src="img/percentage.png" alt="percentage" />
+                            <img src="img/paw.png" alt="paw" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="relate-slider__footer-card">
+                        <div class="relate-slider__rating">
+                          <div class="relate-slider__stars">
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                          </div>
+                          <span>5.0 (9)</span>
+                        </div>
+                        <h3 class="relate-slider__title">
+                          Дощовик для люльки Cybex Gazelle S 2023
+                        </h3>
+                        <div class="relate-slider__prices">
+                          <div class="relate-slider__current-pirce">
+                            17 200 ₴
+                          </div>
+                          <div class="relate-slider__old-pirce">20 200 ₴</div>
+                        </div>
+                        <a href="##" class="btn-black">
+                          В кошик
+                          <svg
+                            width="15"
+                            height="16"
+                            viewBox="0 0 15 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M4.15106 7.47767V4.23883C4.15106 2.45008 5.63583 1 7.46739 1C9.29895 1 10.7837 2.45008 10.7837 4.23883V7.47767M2.65831 14.765H12.2765C13.2544 14.765 14.0199 13.9428 13.9272 12.9921L13.2955 6.51442C13.2144 5.68328 12.4997 5.04854 11.6448 5.04854H3.29C2.43512 5.04854 1.72035 5.68328 1.6393 6.51443L1.00762 12.9921C0.914904 13.9428 1.68043 14.765 2.65831 14.765Z"
+                              stroke="white"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                    </section>
+                    <section class="swiper-slide">
+                      <div class="relate-slider__image">
+                        <img src="img/catalog-card.png" alt="slide-photo" />
+                        <div class="relate-slider__icons">
+                          <div class="relate-slider__tag">
+                            <svg
+                              width="15"
+                              height="11"
+                              viewBox="0 0 15 11"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M14 1L5.06257 10L1 5.90911"
+                                stroke="#5EB04C"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                            <span>В наявності</span>
+                          </div>
+                          <div class="relate-slider__icon-right">
+                            <img src="img/percentage.png" alt="percentage" />
+                            <img src="img/paw.png" alt="paw" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="relate-slider__footer-card">
+                        <div class="relate-slider__rating">
+                          <div class="relate-slider__stars">
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                          </div>
+                          <span>5.0 (9)</span>
+                        </div>
+                        <h3 class="relate-slider__title">
+                          Дощовик для люльки Cybex Gazelle S 2023
+                        </h3>
+                        <div class="relate-slider__prices">
+                          <div class="relate-slider__current-pirce">
+                            17 200 ₴
+                          </div>
+                          <div class="relate-slider__old-pirce">20 200 ₴</div>
+                        </div>
+                        <a href="##" class="btn-black">
+                          В кошик
+                          <svg
+                            width="15"
+                            height="16"
+                            viewBox="0 0 15 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M4.15106 7.47767V4.23883C4.15106 2.45008 5.63583 1 7.46739 1C9.29895 1 10.7837 2.45008 10.7837 4.23883V7.47767M2.65831 14.765H12.2765C13.2544 14.765 14.0199 13.9428 13.9272 12.9921L13.2955 6.51442C13.2144 5.68328 12.4997 5.04854 11.6448 5.04854H3.29C2.43512 5.04854 1.72035 5.68328 1.6393 6.51443L1.00762 12.9921C0.914904 13.9428 1.68043 14.765 2.65831 14.765Z"
+                              stroke="white"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                    </section>
+                    <section class="swiper-slide">
+                      <div class="relate-slider__image">
+                        <img src="img/catalog-card.png" alt="slide-photo" />
+                        <div class="relate-slider__icons">
+                          <div class="relate-slider__tag">
+                            <svg
+                              width="15"
+                              height="11"
+                              viewBox="0 0 15 11"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M14 1L5.06257 10L1 5.90911"
+                                stroke="#5EB04C"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                            <span>В наявності</span>
+                          </div>
+                          <div class="relate-slider__icon-right">
+                            <img src="img/percentage.png" alt="percentage" />
+                            <img src="img/paw.png" alt="paw" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="relate-slider__footer-card">
+                        <div class="relate-slider__rating">
+                          <div class="relate-slider__stars">
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                          </div>
+                          <span>5.0 (9)</span>
+                        </div>
+                        <h3 class="relate-slider__title">
+                          Дощовик для люльки Cybex Gazelle S 2023
+                        </h3>
+                        <div class="relate-slider__prices">
+                          <div class="relate-slider__current-pirce">
+                            17 200 ₴
+                          </div>
+                          <div class="relate-slider__old-pirce">20 200 ₴</div>
+                        </div>
+                        <a href="##" class="btn-black">
+                          В кошик
+                          <svg
+                            width="15"
+                            height="16"
+                            viewBox="0 0 15 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M4.15106 7.47767V4.23883C4.15106 2.45008 5.63583 1 7.46739 1C9.29895 1 10.7837 2.45008 10.7837 4.23883V7.47767M2.65831 14.765H12.2765C13.2544 14.765 14.0199 13.9428 13.9272 12.9921L13.2955 6.51442C13.2144 5.68328 12.4997 5.04854 11.6448 5.04854H3.29C2.43512 5.04854 1.72035 5.68328 1.6393 6.51443L1.00762 12.9921C0.914904 13.9428 1.68043 14.765 2.65831 14.765Z"
+                              stroke="white"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="relate-slider__buttons">
+                  <div class="relate-btn-prev btn-swiper">
+                    <svg class="arrow_40">
+                      <use xlink:href="#arrow-prev_40"></use>
+                    </svg>
+                  </div>
+                  <div class="relate-btn-next btn-swiper">
+                    <svg class="arrow_40">
+                      <use xlink:href="#arrow-next_40"></use>
+                    </svg>
+                    <svg class="arrow-mob">
+                      <use xlink:href="#arrow-next-mob"></use>
+                    </svg>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="consultation">
+              <h2>Потрібна допомога експерта?</h2>
+              <a href="##">Замовити консультацію</a>
+            </div>
+            <div class="description">
+              <div class="card__header">
+                <h2>Опис</h2>
+                <span>-</span>
+              </div>
+              <div class="description__subtitle">
+                <span>Група 0+</span>
+                <span>Зріст: 45-87 см</span>
+                <span>Вага: максимум 13 кг</span>
+                <span>Вік: від народження до 12 місяців</span>
+                <span>UN R129/03 i-Size</span>
+              </div>
+              <ul>
+                <li>
+                  Cloud T i-Size встановлює нові стандарти ергономічного
+                  комфорту. Одночасний нахил спинки та підставки для ніг
+                  забезпечує більш рівне положення дитини в автомобілі. У
+                  поєднанні з візочком, автокрісло можна відрегулювати до
+                  абсолютно горизонтального, лежачого положення.
+                </li>
+                <li>
+                  Cloud T i-Size сумісне з системами для подорожей, тобто за
+                  допомогою адаптерів його можна без особливих зусиль закріпити
+                  на візочки CYBEX. 
+                </li>
+                <li>
+                  Оснащене перевіреним лінійним захистом (L.S.P.), що підвищує
+                  безпеку в разі бокового удару. Разом з енергопоглинаючою
+                  оболонкою сидіння розширений бічний захист зменшує початкову
+                  силу удару на 25%.
+                </li>
+                <li>
+                  База T забезпечує максимальний захист і гнучкість. Коли ваша
+                  дитина виросте з автокрісла Cloud T i-Size, її можна
+                  продовжувати використовувати з автокріслом CYBEX Sirona T
+                  i-Size, що забезпечує довготривале рішення.
+                </li>
+                <li>
+                  Розсувний протисонцевий козирок XXL UPF50+ забезпечує
+                  також захист від негоди та від галасливого оточення, як
+                  затишний кокон. Нове віконце з сітчастої тканини не тільки
+                  покращує циркуляцію повітря, але й полегшує вам догляд за
+                  дитиною.
+                </li>
+                <li>
+                  Регульований підголівник Cloud T i-Size має 12 різних положень
+                  для забезпечення індивідуальної та надійної підтримки вашої
+                  дитини, що росте. Завдяки вбудованим направляючим для ременів
+                  безпеки, підголівник можна відрегулювати без зусиль і за
+                  лічені секунди, а 3-точкові ремені безпеки регулюються
+                  одночасно і автоматично.
+                </li>
+                <li>
+                  Оснащене знімною вкладкою для новонароджених, яка забезпечує
+                  майже горизонтальне положення для новонароджених. Вставка
+                  мінімізує ризик перекидання голови дитини вперед під час сну,
+                  що може призвести до проблем з диханням. Як тільки зріст
+                  дитини перевищить 60 см, вкладку для новонароджених можна
+                  зняти.
+                </li>
+                <li>
+                  Завдяки всебічній циркуляції повітря температура в автокріслі
+                  Cloud T i-Size завжди залишається комфортною. У лінійці Plus
+                  циркуляція повітря ще більше покращилася, оскільки спеціально
+                  розроблена 3D-сітка чохла збільшує повітропроникність до шести
+                  разів.
+                </li>
+              </ul>
+            </div>
+            <div class="characteristics">
+              <div class="card__header">
+                <h2>Характеристики</h2>
+                <span>-</span>
+              </div>
+              <div class="characteristics__body">
+                <div class="characteristics__card card-wh">
+                  <h3>Тип</h3>
+                  <span>Дитяча коляска</span>
+                </div>
+
+                <div class="characteristics__card card-wh">
+                  <h3>Регулювання батьківської ручки</h3>
+                  <span>по куту нахилу</span>
+                </div>
+                <div class="characteristics__card">
+                  <h3>Колір коляски</h3>
+                  <span>Чорний</span>
+                </div>
+                <div class="characteristics__card">
+                  <h3>Країна бренду</h3>
+                  <span>Польша</span>
+                </div>
+                <div class="characteristics__card card-wh">
+                  <h3>Колір рами</h3>
+                  <span>Чорний</span>
+                </div>
+                <div class="characteristics__card card-wh">
+                  <h3>Комплектація</h3>
+                  <span>
+                    адаптери - антимоскітна сітка - бампер на прогулянковий блок
+                    - дощовик - кошик для покупок - люлька - прогулянковий блок
+                    - рюкзак для мами - шасі
+                  </span>
+                </div>
+                <div class="characteristics__card">
+                  <h3>Колеса</h3>
+                  <span>поліуретанові</span>
+                </div>
+              </div>
+            </div>
+            <div class="delivery">
+              <div class="card__header">
+                <h2>Оплата і доставка</h2>
+                <span>-</span>
+              </div>
+              <div class="delivery__body">
+                <div class="delivery__row">
+                  <h3>Оплата</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+                <div class="delivery__row">
+                  <h3>Доставка</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="booking">
+              <div class="card__header">
+                <h2>Бронювання до пологів</h2>
+                <span>+</span>
+              </div>
+            </div>
+            <div class="reviews">
+              <div class="card__header">
+                <h2>Відгуки</h2>
+                <a href="##">Всі відгуки про товар</a>
+              </div>
+              <article class="reviews-slider">
+                <div class="reviews-slider__gallary">
+                  <div class="reviews-slider__wrapper swiper-wrapper">
+                    <section class="swiper-slide">
+                      <div class="reviews-slider__top">
+                        <div class="reviews-slider__autor">
+                          <div class="reviews-slider__avatar">
+                            <img src="img/photo.png" alt="avatar" />
+                          </div>
+                          <h3>
+                            Володимир <br />
+                            Романов
+                          </h3>
+                        </div>
+                        <div class="reviews-slider__rating">
+                          <div class="reviews-slider__stars">
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                          </div>
+                          <span>5.0</span>
+                        </div>
+                      </div>
+                      <div class="reviews-slider__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                      </div>
+                      <div class="reviews-slider__product">
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                      </div>
+                    </section>
+                    <section class="swiper-slide">
+                      <div class="reviews-slider__top">
+                        <div class="reviews-slider__autor">
+                          <div class="reviews-slider__avatar">
+                            <img src="img/photo.png" alt="avatar" />
+                          </div>
+                          <h3>
+                            Володимир <br />
+                            Романов
+                          </h3>
+                        </div>
+                        <div class="reviews-slider__rating">
+                          <div class="reviews-slider__stars">
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                          </div>
+                          <span>5.0</span>
+                        </div>
+                      </div>
+                      <div class="reviews-slider__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                      </div>
+                      <div class="reviews-slider__product">
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                      </div>
+                    </section>
+                    <section class="swiper-slide">
+                      <div class="reviews-slider__top">
+                        <div class="reviews-slider__autor">
+                          <div class="reviews-slider__avatar">
+                            <img src="img/photo.png" alt="avatar" />
+                          </div>
+                          <h3>
+                            Володимир <br />
+                            Романов
+                          </h3>
+                        </div>
+                        <div class="reviews-slider__rating">
+                          <div class="reviews-slider__stars">
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                          </div>
+                          <span>5.0</span>
+                        </div>
+                      </div>
+                      <div class="reviews-slider__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                      </div>
+                      <div class="reviews-slider__product">
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                      </div>
+                    </section>
+                    <section class="swiper-slide">
+                      <div class="reviews-slider__top">
+                        <div class="reviews-slider__autor">
+                          <div class="reviews-slider__avatar">
+                            <img src="img/photo.png" alt="avatar" />
+                          </div>
+                          <h3>
+                            Володимир <br />
+                            Романов
+                          </h3>
+                        </div>
+                        <div class="reviews-slider__rating">
+                          <div class="reviews-slider__stars">
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                          </div>
+                          <span>5.0</span>
+                        </div>
+                      </div>
+                      <div class="reviews-slider__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                      </div>
+                      <div class="reviews-slider__product">
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                      </div>
+                    </section>
+                    <section class="swiper-slide">
+                      <div class="reviews-slider__top">
+                        <div class="reviews-slider__autor">
+                          <div class="reviews-slider__avatar">
+                            <img src="img/photo.png" alt="avatar" />
+                          </div>
+                          <h3>
+                            Володимир <br />
+                            Романов
+                          </h3>
+                        </div>
+                        <div class="reviews-slider__rating">
+                          <div class="reviews-slider__stars">
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                            <svg class="star">
+                              <use xlink:href="#star"></use>
+                            </svg>
+                          </div>
+                          <span>5.0</span>
+                        </div>
+                      </div>
+                      <div class="reviews-slider__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                      </div>
+                      <div class="reviews-slider__product">
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                        <div class="reviews-slider__image">
+                          <img src="img/product.png" alt="pram" />
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="reviews-slider__buttons">
+                  <div class="reviews-btn-prev btn-swiper">
+                    <svg
+                      width="33"
+                      height="33"
+                      viewBox="0 0 33 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        width="32.3608"
+                        height="32.3608"
+                        rx="4.0451"
+                        fill="#E93A53"
+                      />
+                      <path
+                        d="M17.1855 19.416L13.7531 15.9836L17.1855 12.5512"
+                        stroke="white"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="reviews-btn-next btn-swiper">
+                    <svg
+                      width="33"
+                      height="33"
+                      viewBox="0 0 33 33"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        width="32.3608"
+                        height="32.3608"
+                        rx="4.0451"
+                        fill="#E93A53"
+                      />
+                      <path
+                        d="M15.7534 13.5508L19.1858 16.9832L15.7534 20.4156"
+                        stroke="white"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </article>
+              <div class="reviews__footer">
+                <div class="reviews__rating">
+                  <div class="reviews__rating-left">
+                    <div class="reviews__count">5.0</div>
+                    <div class="reviews__rating-item">
+                      <div class="reviews-slider__stars">
+                        <svg class="star">
+                          <use xlink:href="#star"></use>
+                        </svg>
+                        <svg class="star">
+                          <use xlink:href="#star"></use>
+                        </svg>
+                        <svg class="star">
+                          <use xlink:href="#star"></use>
+                        </svg>
+                        <svg class="star">
+                          <use xlink:href="#star"></use>
+                        </svg>
+                        <svg class="star">
+                          <use xlink:href="#star"></use>
+                        </svg>
+                      </div>
+                      <span>Рейтнг товару</span>
+                    </div>
+                  </div>
+                  <div class="reviews__rating-right">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <div class="reviews__form">
+                  <h3>Залишити відгук</h3>
+                  <div class="reviews__inputs">
+                    <input type="text" placeholder="Імʼя" />
+                    <input type="text" placeholder="Прізвище" />
+                  </div>
+                  <textarea placeholder="Відгук"></textarea>
+                </div>
+                <div class="reviews__judgement">
+                  <h3>Ваша оцінка</h3>
+                  <div class="reviews-slider__value">
+                    <a href="##">
+                      <svg class="star">
+                        <use xlink:href="#star"></use>
+                      </svg>
+                    </a>
+                    <a href="##">
+                      <svg class="star">
+                        <use xlink:href="#star"></use>
+                      </svg>
+                    </a>
+                    <a href="##">
+                      <svg class="star">
+                        <use xlink:href="#star"></use>
+                      </svg>
+                    </a>
+                    <a href="##">
+                      <svg class="star">
+                        <use xlink:href="#star"></use>
+                      </svg>
+                    </a>
+                    <a href="##">
+                      <svg class="star">
+                        <use xlink:href="#star"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="##" class="btn-black">Залишити відгук</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer container">
+          <div class="card-swiper">
+            <h2>Аксесуари</h2>
+            <article class="card-swiper-slider">
+              <div class="card-swiper-slider__gallary accessuari">
+                <div class="card-swiper-slider__wrapper swiper-wrapper">
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="card-swiper-slider__buttons">
+                <div class="accessuari-btn-prev btn-swiper">
+                  <svg class="arrow_40">
+                    <use xlink:href="#arrow-prev_40"></use>
+                  </svg>
+                </div>
+                <div class="accessuari-btn-next btn-swiper">
+                  <svg class="arrow_40">
+                    <use xlink:href="#arrow-next_40"></use>
+                  </svg>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="card-swiper">
+            <h2>Вас може зацікавити</h2>
+            <article class="card-swiper-slider">
+              <div class="card-swiper-slider__gallary accessuari">
+                <div class="card-swiper-slider__wrapper swiper-wrapper">
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="card-swiper-slider__buttons">
+                <div class="accessuari-btn-prev btn-swiper">
+                  <svg class="arrow_40">
+                    <use xlink:href="#arrow-prev_40"></use>
+                  </svg>
+                </div>
+                <div class="accessuari-btn-next btn-swiper">
+                  <svg class="arrow_40">
+                    <use xlink:href="#arrow-next_40"></use>
+                  </svg>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="card-swiper">
+            <h2>Ви переглядали</h2>
+            <article class="card-swiper-slider">
+              <div class="card-swiper-slider__gallary accessuari">
+                <div class="card-swiper-slider__wrapper swiper-wrapper">
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="card-swiper-slider__image">
+                      <img src="img/card.jpg" alt="slide-photo" />
+                      <div class="card-swiper-slider__icons">
+                        <div class="card-swiper-slider__tag">
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 1L5.06257 10L1 5.90911"
+                              stroke="#5EB04C"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span>В наявності</span>
+                        </div>
+                        <div class="card-swiper-slider__icon-right">
+                          <img src="img/percentage.png" alt="percentage" />
+                          <img src="img/paw.png" alt="paw" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-swiper-slider__footer-card">
+                      <div class="card-swiper-slider__rating">
+                        <div class="card-swiper-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="card-swiper-slider__mid">
+                        <h3 class="card-swiper-slider__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </h3>
+                        <a href="##" class="card-swiper-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="card-swiper-slider__prices">
+                        <div class="card-swiper-slider__current-pirce">
+                          17 200 ₴
+                        </div>
+                        <div class="card-swiper-slider__old-pirce">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="card-swiper-slider__buttons">
+                <div class="accessuari-btn-prev btn-swiper">
+                  <svg class="arrow_40">
+                    <use xlink:href="#arrow-prev_40"></use>
+                  </svg>
+                </div>
+                <div class="accessuari-btn-next btn-swiper">
+                  <svg class="arrow_40">
+                    <use xlink:href="#arrow-next_40"></use>
+                  </svg>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+  <div class="footer__content container">
+    <div class="footer__top">
+      <div class="footer__left">
+        <a href="index.html" class="footer__logo">
+          <img src="img/logo_footer.png" alt="logo" />
+        </a>
+        <div class="footer__text">
+          Crabs Kids - дитячі коляски, автокрісла, велосипеди і аксесуари
+          преміум класу
+        </div>
+      </div>
+      <div class="footer__right">
+        <div class="footer__column">
+          <div class="footer__title">
+            <span>Категорії</span>
+            <svg
+              width="18"
+              height="10"
+              viewBox="0 0 18 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17 9L9 1L1 9"
+                stroke="#E93A53"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="footer__list">
+            <a href="##">Коляски Cybex</a>
+            <a href="##">Автокрісла Cybex</a>
+            <a href="##">Аксесуари Cybex</a>
+            <a href="##">Люльки Cybex</a>
+            <a href="##">Текстиль Cybex</a>
+            <a href="##">Шасі Cybex</a>
+            <a href="##">Suavinex</a>
+            <a href="##">Стільчик Cybex LEMO</a>
+            <a href="##">Велосипеди та біговело QPLAY</a>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__title">
+            <span>Навігація</span>
+            <svg
+              width="18"
+              height="10"
+              viewBox="0 0 18 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17 9L9 1L1 9"
+                stroke="#E93A53"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="footer__list">
+            <a href="##">Головна сторінка</a>
+            <a href="##">Чому саме ми?</a>
+            <a href="##">Новинки</a>
+            <a href="##">Акції</a>
+            <a href="##">Про нас</a>
+            <a href="##">Блог</a>
+            <a href="##">Відгуки</a>
+            <a href="##">Контакти</a>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__title">
+            <span>Клієнтам</span>
+            <svg
+              width="18"
+              height="10"
+              viewBox="0 0 18 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17 9L9 1L1 9"
+                stroke="#E93A53"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="footer__list">
+            <a href="##">Доставка та оплата</a>
+            <a href="##">Повернення та обмін</a>
+            <a href="##">Політика конфіденційності</a>
+            <a href="##">Договір оферти</a>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__title">
+            <span>Контакти</span>
+            <svg
+              width="18"
+              height="10"
+              viewBox="0 0 18 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17 9L9 1L1 9"
+                stroke="#E93A53"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="footer__contacts">
+            <div class="footer__contact">
+              <div class="footer__icon">
+                <svg
+                  width="14"
+                  height="16"
+                  viewBox="0 0 14 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M13 7.22222C13 10.6587 10.3137 13.4444 7 15C3.68629 13.4444 1 10.6587 1 7.22222C1 3.78578 3.68629 1 7 1C10.3137 1 13 3.78578 13 7.22222ZM7 9.55556C8.24264 9.55556 9.25 8.51089 9.25 7.22222C9.25 5.93356 8.24264 4.88889 7 4.88889C5.75736 4.88889 4.75 5.93356 4.75 7.22222C4.75 8.51089 5.75736 9.55556 7 9.55556Z"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="footer__info">
+                <a href="##"
+                  >вул. Вовчинецька 227/2, Івано-Франківськ, Україна</a
+                >
+              </div>
+            </div>
+            <div class="footer__contact">
+              <div class="footer__icon">
+                <svg
+                  width="16"
+                  height="13"
+                  viewBox="0 0 16 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.38889 1.39286L6.90006 6.96026C7.50754 7.57394 8.49246 7.57394 9.09994 6.96026L14.6111 1.39286M1.77778 12H14.2222C14.6518 12 15 11.6482 15 11.2143V1.78571C15 1.35178 14.6518 1 14.2222 1H1.77778C1.34822 1 1 1.35178 1 1.78571V11.2143C1 11.6482 1.34822 12 1.77778 12Z"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="footer__info">
+                <a href="##">info@gmail.com</a>
+                <span>Ваші пропощиції та питання</span>
+              </div>
+            </div>
+            <div class="footer__contact">
+              <div class="footer__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.9996 11.4819V13.5894C15.0028 14.3951 14.2784 15.0679 13.465 14.9945C6.44446 15 1 9.50499 1.00549 2.53159C0.932236 1.72251 1.60167 1.00082 2.40631 1.00007H4.51809C4.85971 0.996713 5.1909 1.11745 5.44992 1.33977C6.18634 1.97183 6.66001 4.11716 6.47776 4.96999C6.33547 5.63584 5.66427 6.10167 5.20794 6.5571C6.21002 8.31592 7.66919 9.7722 9.4315 10.7723C9.88783 10.3169 10.3546 9.647 11.0218 9.50499C11.8776 9.32283 14.0367 9.79717 14.6663 10.5387C14.8895 10.8016 15.0081 11.1373 14.9996 11.4819Z"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="footer__info">
+                <a href="##">+380 (99) 008-41-17</a>
+              </div>
+            </div>
+            <div class="footer__contact">
+              <div class="footer__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.9996 11.4819V13.5894C15.0028 14.3951 14.2784 15.0679 13.465 14.9945C6.44446 15 1 9.50499 1.00549 2.53159C0.932236 1.72251 1.60167 1.00082 2.40631 1.00007H4.51809C4.85971 0.996713 5.1909 1.11745 5.44992 1.33977C6.18634 1.97183 6.66001 4.11716 6.47776 4.96999C6.33547 5.63584 5.66427 6.10167 5.20794 6.5571C6.21002 8.31592 7.66919 9.7722 9.4315 10.7723C9.88783 10.3169 10.3546 9.647 11.0218 9.50499C11.8776 9.32283 14.0367 9.79717 14.6663 10.5387C14.8895 10.8016 15.0081 11.1373 14.9996 11.4819Z"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="footer__info">
+                <a href="##">+380 (97) 889-39-33</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__social">
+            <a href="##">Instagram</a>
+            <a href="##">Telegram</a>
+            <a href="##">Viber</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__copy">©2024. Crabs</div>
+      <div class="footer__credits">
+        <div class="footer__credit">
+          <img src="img/privat.svg" alt="privar" />
+        </div>
+        <div class="footer__credit">
+          <img src="img/visa.svg" alt="privar" />
+        </div>
+        <div class="footer__credit">
+          <img src="img/mastercard.svg" alt="privar" />
+        </div>
+      </div>
+      <div class="footer__studio">
+        <img src="img/prime.png" alt="prime" />
+        <span> Розробка Prime Studio </span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
