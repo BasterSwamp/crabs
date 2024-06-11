@@ -54,7 +54,7 @@
         </svg>
       </a>
       <div class="header__buttons">
-        <a href="##" class="header__btn">
+        <a href="#login" class="header__btn open-popup">
           <svg
             width="22"
             height="24"
@@ -2505,6 +2505,53 @@
     </div>
   </div>
 </footer>
+<div id="quickBuy" class="quick-buy">
+  <div class="quick-buy__content area">
+    <div class="quick-buy__header">
+      <h2>Швидка кокупка 1 клік</h2>
+      <span>Заповніть поле номеру телефону для швидкого придбання товару</span>
+    </div>
+    <div class="quick-buy__form">
+      <input type="text" placeholder="Ваше ПІБ" />
+      <input type="text" placeholder="+38 (___) ___ ____*" />
+      <div>
+        <label class="modal-checkbox">
+          <input type="checkbox" checked />
+          <span class="modal-checkbox__body"></span>
+          Я погоджуюсь з політикою конфіденційності
+        </label>
+      </div>
+    </div>
+    <a href="##" class="btn-black">Оформити замовлення</a>
+    <div id="closeQuickBuy" class="close-popup">
+      <svg viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M32 1L1 32M1 1L32 32" stroke="#E93A53" stroke-width="2" />
+      </svg>
+    </div>
+  </div>
+</div>
+<div id="login" class="login">
+  <div class="login__content area">
+    <h2>Вхід</h2>
+    <div class="login__form">
+      <div class="login__input">
+        <input type="text" id="input-text" />
+        <label for="input-text">Телефон або ел. пошта</label>
+      </div>
+      <div class="login__input">
+        <input type="password" id="input-password" />
+        <label for="input-password">Пароль</label>
+      </div>
+    </div>
+    <a href="##" class="btn-red">Увійти</a>
+    <a href="##" class="lost-pass">Забули пароль?</a>
+    <div id="closeLogin" class="close-popup">
+      <svg viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M32 1L1 32M1 1L32 32" stroke="#E93A53" stroke-width="2" />
+      </svg>
+    </div>
+  </div>
+</div>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
