@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <title>Відгуки</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="header__content container">
+    <div class="header__column">
+      <a href="catalog.html" class="header__catalogue">
+        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="5" height="5" rx="1" fill="#E93A53" />
+          <rect y="10" width="5" height="5" rx="1" fill="#E93A53" />
+          <rect x="10" y="10" width="5" height="5" rx="1" fill="#E93A53" />
+          <rect x="10" width="5" height="5" rx="1" fill="#E93A53" />
+        </svg>
+        <span>Каталог</span>
+      </a>
+      <nav class="header__nav">
+        <a href="##">Акції</a>
+        <a href="##">Новинки</a>
+        <a href="##">Про нас</a>
+        <a href="##">Блог</a>
+        <a href="##">Відгуки</a>
+        <a href="##">Контакти</a>
+      </nav>
+      <a href="index.html" class="header__logo">
+        <img src="img/logo.png" alt="logo" />
+      </a>
+    </div>
+    <div class="header__column">
+      <a href="##" class="header__constructor">Консутруктор</a>
+      <a href="##" class="header__search">
+        <svg
+          width="19"
+          height="19"
+          viewBox="0 0 19 19"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17.4697 18.5303C17.7626 18.8232 18.2374 18.8232 18.5303 18.5303C18.8232 18.2374 18.8232 17.7626 18.5303 17.4697L17.4697 18.5303ZM15.25 8.5C15.25 12.2279 12.2279 15.25 8.5 15.25V16.75C13.0563 16.75 16.75 13.0563 16.75 8.5H15.25ZM8.5 15.25C4.77208 15.25 1.75 12.2279 1.75 8.5H0.25C0.25 13.0563 3.94365 16.75 8.5 16.75V15.25ZM1.75 8.5C1.75 4.77208 4.77208 1.75 8.5 1.75V0.25C3.94365 0.25 0.25 3.94365 0.25 8.5H1.75ZM8.5 1.75C12.2279 1.75 15.25 4.77208 15.25 8.5H16.75C16.75 3.94365 13.0563 0.25 8.5 0.25V1.75ZM18.5303 17.4697L14.3428 13.2821L13.2821 14.3428L17.4697 18.5303L18.5303 17.4697Z"
+            fill="#242424"
+          />
+        </svg>
+      </a>
+      <div class="header__buttons">
+        <a href="#login" class="header__btn open-popup">
+          <svg
+            width="22"
+            height="24"
+            viewBox="0 0 22 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.4876 23.2001C20.2279 18.615 18.7827 15.2715 10.7438 15.2715C2.70491 15.2715 1.25978 18.615 1 23.2001"
+              stroke="#242424"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+            <ellipse
+              cx="10.7445"
+              cy="5.75694"
+              rx="4.89685"
+              ry="4.75694"
+              stroke="#242424"
+              stroke-width="1.5"
+            />
+          </svg>
+        </a>
+        <a href="##" class="header__btn">
+          <svg
+            width="23"
+            height="19"
+            viewBox="0 0 23 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.52688 9.55034L11.3214 18L20.116 9.55034C21.0936 8.61103 21.6429 7.33706 21.6429 6.00867C21.6429 3.24246 19.3089 1 16.4297 1C15.0471 1 13.7212 1.5277 12.7435 2.46701L11.3214 3.83333L9.89933 2.46701C8.92169 1.5277 7.59571 1 6.21311 1C3.33399 1 1 3.24246 1 6.00867C1 7.33706 1.54923 8.61103 2.52688 9.55034Z"
+              stroke="#242424"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span>0</span>
+        </a>
+        <a href="##" class="header__btn">
+          <svg
+            width="19"
+            height="19"
+            viewBox="0 0 19 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+              stroke="#242424"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span>0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <main>
+        <svg display="none" xmlns="http://www.w3.org/2000/svg">
+          <symbol id="star" viewBox="0 0 20 19">
+            <path
+              d="M10 0L13.4092 5.3077L19.5106 6.90983L15.5161 11.7923L15.8779 18.0902L10 15.8L4.12215 18.0902L4.48387 11.7923L0.489435 6.90983L6.59085 5.3077L10 0Z"
+              fill="#F4A804"
+            />
+          </symbol>
+          <symbol id="bag" viewBox="0 0 41 41">
+            <rect width="41" height="41" rx="5" fill="#242424" />
+            <path
+              d="M12.8402 18.8104C12.9467 17.7839 13.8862 17 15.0097 17H25.9903C27.1138 17 28.0533 17.7839 28.1598 18.8104L28.99 26.8104C29.1118 27.9846 28.1057 29 26.8205 29H14.1795C12.8943 29 11.8882 27.9846 12.01 26.8104L12.8402 18.8104Z"
+              fill="#242424"
+            />
+            <path
+              d="M16.1414 20V16C16.1414 13.7909 18.0928 12 20.5 12C22.9072 12 24.8586 13.7909 24.8586 16V20M14.1795 29H26.8205C28.1057 29 29.1118 27.9845 28.99 26.8104L28.1598 18.8104C28.0533 17.7839 27.1139 17 25.9903 17H15.0097C13.8862 17 12.9467 17.7839 12.8402 18.8104L12.01 26.8104C11.8882 27.9846 12.8943 29 14.1795 29Z"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-prev"
+            viewBox="0 0 50 50"
+            width="50"
+            height="50"
+            fill="none"
+          >
+            <rect width="50" height="50" rx="5" fill="#E93A53" />
+            <path
+              d="M26.5547 30L21.2513 24.6967L26.5547 19.3933"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-next"
+            viewBox="0 0 50 50"
+            width="50"
+            height="50"
+            fill="none"
+          >
+            <rect width="50" height="50" rx="5" fill="#E93A53" />
+            <path
+              d="M23.75 20L29.0533 25.3033L23.75 30.6067"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-prev_40"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <rect width="40" height="40" rx="5" fill="#E93A53" />
+            <path
+              d="M21.2427 24L17 19.7573L21.2427 15.5146"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-next_40"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <rect width="40" height="40" rx="5" fill="#E93A53" />
+            <path
+              d="M19 16L23.2427 20.2427L19 24.4854"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-prev-mob"
+            width="55"
+            height="55"
+            viewBox="0 0 55 55"
+            fill="none"
+          >
+            <rect width="55" height="55" rx="5" fill="#E93A53" />
+            <path
+              d="M31 18L22 27.5L31 37"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-next-mob"
+            width="55"
+            height="55"
+            viewBox="0 0 55 55"
+            fill="none"
+          >
+            <rect
+              x="55"
+              y="55.002"
+              width="55"
+              height="55"
+              rx="5"
+              transform="rotate(180 55 55.002)"
+              fill="#E93A53"
+            />
+            <path
+              d="M24 37.002L33 27.502L24 18.002"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-top"
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+          >
+            <rect
+              x="22"
+              width="22"
+              height="22"
+              rx="3"
+              transform="rotate(90 22 0)"
+              fill="#E93A53"
+            />
+            <path
+              d="M8.7998 11.6836L11.1333 9.35012L13.4667 11.6836"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+          <symbol
+            id="arrow-top-mob"
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+          >
+            <rect
+              x="30"
+              width="30"
+              height="30"
+              rx="3"
+              transform="rotate(90 30 0)"
+              fill="#E93A53"
+            />
+            <path
+              d="M12 15.9316L15.182 12.7496L18.364 15.9316"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </symbol>
+        </svg>
+        <div class="breadcrambs">
+          <div class="container">
+            <span> <a href="index.html">Повернутися назад</a> / </span>
+            <span class="active">Відгуки</span>
+          </div>
+        </div>
+        <div class="feedback-header container">
+          <div class="feedback-header__left">
+            <h1>Відгуки</h1>
+            <a href="##">
+              <span>
+                Найновіші
+                <svg
+                  width="7"
+                  height="5"
+                  viewBox="0 0 7 5"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7 3.79191e-08L3.5 5L0 0L7 3.79191e-08Z"
+                    fill="#E93A53"
+                  />
+                </svg>
+              </span>
+              <svg
+                width="32"
+                height="22"
+                viewBox="0 0 32 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="new-icon"
+              >
+                <path
+                  d="M5 1V20.5M5 20.5L1 17M5 20.5L9 17"
+                  stroke="#E93A53"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M12.5 2H30.5M12.5 6.5H27.0946M12.5 11H24.1757M12.5 15.5H20.7703M12.5 20H17.3649"
+                  stroke="#3D3D3D"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <a href="##" class="btn-black">Залишити відгук</a>
+        </div>
+        <article class="feedback-body container">
+          <section class="feedback-card">
+            <div class="feedback-card__main">
+              <div class="feedback-card__left">
+                <div class="feedback-card__autor">
+                  <div class="feedback-card__avatar">
+                    <img src="img/photo.png" alt="avatar" />
+                  </div>
+                  <h3>
+                    Володимир <br />
+                    Романов
+                  </h3>
+                </div>
+                <div class="feedback-card__rating">
+                  <div class="feedback-card__stars">
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                  </div>
+                  <span>5.0</span>
+                </div>
+              </div>
+              <div class="feedback-card__text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur
+                </p>
+                <a href="##">Читати повністю</a>
+              </div>
+              <div class="feedback-card__right">30.04.2023</div>
+            </div>
+            <div class="feedback-card__product">
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+            </div>
+          </section>
+          <section class="feedback-card">
+            <div class="feedback-card__main">
+              <div class="feedback-card__left">
+                <div class="feedback-card__autor">
+                  <div class="feedback-card__avatar">
+                    <img src="img/photo.png" alt="avatar" />
+                  </div>
+                  <h3>
+                    Володимир <br />
+                    Романов
+                  </h3>
+                </div>
+                <div class="feedback-card__rating">
+                  <div class="feedback-card__stars">
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                  </div>
+                  <span>5.0</span>
+                </div>
+              </div>
+              <div class="feedback-card__text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur
+                </p>
+                <a href="##">Читати повністю</a>
+              </div>
+              <div class="feedback-card__right">30.04.2023</div>
+            </div>
+            <div class="feedback-card__product">
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+            </div>
+          </section>
+          <section class="feedback-card">
+            <div class="feedback-card__main">
+              <div class="feedback-card__left">
+                <div class="feedback-card__autor">
+                  <div class="feedback-card__avatar">
+                    <img src="img/photo.png" alt="avatar" />
+                  </div>
+                  <h3>
+                    Володимир <br />
+                    Романов
+                  </h3>
+                </div>
+                <div class="feedback-card__rating">
+                  <div class="feedback-card__stars">
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                  </div>
+                  <span>5.0</span>
+                </div>
+              </div>
+              <div class="feedback-card__text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur
+                </p>
+                <a href="##">Читати повністю</a>
+              </div>
+              <div class="feedback-card__right">30.04.2023</div>
+            </div>
+            <div class="feedback-card__product">
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+            </div>
+          </section>
+          <section class="feedback-card">
+            <div class="feedback-card__main">
+              <div class="feedback-card__left">
+                <div class="feedback-card__autor">
+                  <div class="feedback-card__avatar">
+                    <img src="img/photo.png" alt="avatar" />
+                  </div>
+                  <h3>
+                    Володимир <br />
+                    Романов
+                  </h3>
+                </div>
+                <div class="feedback-card__rating">
+                  <div class="feedback-card__stars">
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                  </div>
+                  <span>5.0</span>
+                </div>
+              </div>
+              <div class="feedback-card__text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur
+                </p>
+                <a href="##">Читати повністю</a>
+              </div>
+              <div class="feedback-card__right">30.04.2023</div>
+            </div>
+            <div class="feedback-card__product">
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+            </div>
+          </section>
+          <section class="feedback-card">
+            <div class="feedback-card__main">
+              <div class="feedback-card__left">
+                <div class="feedback-card__autor">
+                  <div class="feedback-card__avatar">
+                    <img src="img/photo.png" alt="avatar" />
+                  </div>
+                  <h3>
+                    Володимир <br />
+                    Романов
+                  </h3>
+                </div>
+                <div class="feedback-card__rating">
+                  <div class="feedback-card__stars">
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                  </div>
+                  <span>5.0</span>
+                </div>
+              </div>
+              <div class="feedback-card__text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur
+                </p>
+                <a href="##">Читати повністю</a>
+              </div>
+              <div class="feedback-card__right">30.04.2023</div>
+            </div>
+            <div class="feedback-card__product">
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+            </div>
+          </section>
+          <section class="feedback-card">
+            <div class="feedback-card__main">
+              <div class="feedback-card__left">
+                <div class="feedback-card__autor">
+                  <div class="feedback-card__avatar">
+                    <img src="img/photo.png" alt="avatar" />
+                  </div>
+                  <h3>
+                    Володимир <br />
+                    Романов
+                  </h3>
+                </div>
+                <div class="feedback-card__rating">
+                  <div class="feedback-card__stars">
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                    <svg class="star"><use xlink:href="#star"></use></svg>
+                  </div>
+                  <span>5.0</span>
+                </div>
+              </div>
+              <div class="feedback-card__text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur
+                </p>
+                <a href="##">Читати повністю</a>
+              </div>
+              <div class="feedback-card__right">30.04.2023</div>
+            </div>
+            <div class="feedback-card__product">
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+              <div class="feedback-card__image">
+                <img src="img/product.png" alt="pram" />
+              </div>
+            </div>
+          </section>
+        </article>
+        <div class="more container">
+          <a href="##">
+            Більше відгуків
+            <svg
+              width="20"
+              height="11"
+              viewBox="0 0 20 11"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.999321 1L9.69497 9.69565L18.3906 1"
+                stroke="#E93A53"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
+      </main>
+      <footer class="footer">
+  <div class="footer__content container">
+    <div class="footer__top">
+      <div class="footer__left">
+        <a href="index.html" class="footer__logo">
+          <img src="img/logo_footer.png" alt="logo" />
+        </a>
+        <div class="footer__text">
+          Crabs Kids - дитячі коляски, автокрісла, велосипеди і аксесуари
+          преміум класу
+        </div>
+      </div>
+      <div class="footer__right">
+        <div class="footer__column">
+          <div class="footer__title">
+            <span>Категорії</span>
+            <svg
+              width="18"
+              height="10"
+              viewBox="0 0 18 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17 9L9 1L1 9"
+                stroke="#E93A53"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="footer__list">
+            <a href="##">Коляски Cybex</a>
+            <a href="##">Автокрісла Cybex</a>
+            <a href="##">Аксесуари Cybex</a>
+            <a href="##">Люльки Cybex</a>
+            <a href="##">Текстиль Cybex</a>
+            <a href="##">Шасі Cybex</a>
+            <a href="##">Suavinex</a>
+            <a href="##">Стільчик Cybex LEMO</a>
+            <a href="##">Велосипеди та біговело QPLAY</a>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__title">
+            <span>Навігація</span>
+            <svg
+              width="18"
+              height="10"
+              viewBox="0 0 18 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17 9L9 1L1 9"
+                stroke="#E93A53"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="footer__list">
+            <a href="##">Головна сторінка</a>
+            <a href="##">Чому саме ми?</a>
+            <a href="##">Новинки</a>
+            <a href="##">Акції</a>
+            <a href="##">Про нас</a>
+            <a href="##">Блог</a>
+            <a href="##">Відгуки</a>
+            <a href="##">Контакти</a>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__title">
+            <span>Клієнтам</span>
+            <svg
+              width="18"
+              height="10"
+              viewBox="0 0 18 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17 9L9 1L1 9"
+                stroke="#E93A53"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="footer__list">
+            <a href="##">Доставка та оплата</a>
+            <a href="##">Повернення та обмін</a>
+            <a href="##">Політика конфіденційності</a>
+            <a href="##">Договір оферти</a>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__title">
+            <span>Контакти</span>
+            <svg
+              width="18"
+              height="10"
+              viewBox="0 0 18 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17 9L9 1L1 9"
+                stroke="#E93A53"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="footer__contacts">
+            <div class="footer__contact">
+              <div class="footer__icon">
+                <svg
+                  width="14"
+                  height="16"
+                  viewBox="0 0 14 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M13 7.22222C13 10.6587 10.3137 13.4444 7 15C3.68629 13.4444 1 10.6587 1 7.22222C1 3.78578 3.68629 1 7 1C10.3137 1 13 3.78578 13 7.22222ZM7 9.55556C8.24264 9.55556 9.25 8.51089 9.25 7.22222C9.25 5.93356 8.24264 4.88889 7 4.88889C5.75736 4.88889 4.75 5.93356 4.75 7.22222C4.75 8.51089 5.75736 9.55556 7 9.55556Z"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="footer__info">
+                <a href="##"
+                  >вул. Вовчинецька 227/2, Івано-Франківськ, Україна</a
+                >
+              </div>
+            </div>
+            <div class="footer__contact">
+              <div class="footer__icon">
+                <svg
+                  width="16"
+                  height="13"
+                  viewBox="0 0 16 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.38889 1.39286L6.90006 6.96026C7.50754 7.57394 8.49246 7.57394 9.09994 6.96026L14.6111 1.39286M1.77778 12H14.2222C14.6518 12 15 11.6482 15 11.2143V1.78571C15 1.35178 14.6518 1 14.2222 1H1.77778C1.34822 1 1 1.35178 1 1.78571V11.2143C1 11.6482 1.34822 12 1.77778 12Z"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="footer__info">
+                <a href="##">info@gmail.com</a>
+                <span>Ваші пропощиції та питання</span>
+              </div>
+            </div>
+            <div class="footer__contact">
+              <div class="footer__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.9996 11.4819V13.5894C15.0028 14.3951 14.2784 15.0679 13.465 14.9945C6.44446 15 1 9.50499 1.00549 2.53159C0.932236 1.72251 1.60167 1.00082 2.40631 1.00007H4.51809C4.85971 0.996713 5.1909 1.11745 5.44992 1.33977C6.18634 1.97183 6.66001 4.11716 6.47776 4.96999C6.33547 5.63584 5.66427 6.10167 5.20794 6.5571C6.21002 8.31592 7.66919 9.7722 9.4315 10.7723C9.88783 10.3169 10.3546 9.647 11.0218 9.50499C11.8776 9.32283 14.0367 9.79717 14.6663 10.5387C14.8895 10.8016 15.0081 11.1373 14.9996 11.4819Z"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="footer__info">
+                <a href="##">+380 (99) 008-41-17</a>
+              </div>
+            </div>
+            <div class="footer__contact">
+              <div class="footer__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.9996 11.4819V13.5894C15.0028 14.3951 14.2784 15.0679 13.465 14.9945C6.44446 15 1 9.50499 1.00549 2.53159C0.932236 1.72251 1.60167 1.00082 2.40631 1.00007H4.51809C4.85971 0.996713 5.1909 1.11745 5.44992 1.33977C6.18634 1.97183 6.66001 4.11716 6.47776 4.96999C6.33547 5.63584 5.66427 6.10167 5.20794 6.5571C6.21002 8.31592 7.66919 9.7722 9.4315 10.7723C9.88783 10.3169 10.3546 9.647 11.0218 9.50499C11.8776 9.32283 14.0367 9.79717 14.6663 10.5387C14.8895 10.8016 15.0081 11.1373 14.9996 11.4819Z"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="footer__info">
+                <a href="##">+380 (97) 889-39-33</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__social">
+            <a href="##">Instagram</a>
+            <a href="##">Telegram</a>
+            <a href="##">Viber</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__copy">©2024. Crabs</div>
+      <div class="footer__credits">
+        <div class="footer__credit">
+          <img src="img/privat.svg" alt="privar" />
+        </div>
+        <div class="footer__credit">
+          <img src="img/visa.svg" alt="privar" />
+        </div>
+        <div class="footer__credit">
+          <img src="img/mastercard.svg" alt="privar" />
+        </div>
+      </div>
+      <div class="footer__studio">
+        <img src="img/prime.png" alt="prime" />
+        <span> Розробка Prime Studio </span>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="quickBuy" class="quick-buy">
+  <div class="quick-buy__content area">
+    <div class="quick-buy__header">
+      <h2>Швидка кокупка 1 клік</h2>
+      <span>Заповніть поле номеру телефону для швидкого придбання товару</span>
+    </div>
+    <div class="quick-buy__form">
+      <input type="text" placeholder="Ваше ПІБ" />
+      <input type="text" placeholder="+38 (___) ___ ____*" />
+      <div>
+        <label class="modal-checkbox">
+          <input type="checkbox" checked />
+          <span class="modal-checkbox__body"></span>
+          Я погоджуюсь з політикою конфіденційності
+        </label>
+      </div>
+    </div>
+    <a href="##" class="btn-black">Оформити замовлення</a>
+    <div id="closeQuickBuy" class="close-popup">
+      <svg viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M32 1L1 32M1 1L32 32" stroke="#E93A53" stroke-width="2" />
+      </svg>
+    </div>
+  </div>
+</div>
+<div id="login" class="login">
+  <div class="login__content area">
+    <h2>Вхід</h2>
+    <div class="login__form">
+      <div class="login__input">
+        <input type="text" id="input-text" />
+        <label for="input-text">Телефон або ел. пошта</label>
+      </div>
+      <div class="login__input">
+        <input type="password" id="input-password" />
+        <label for="input-password">Пароль</label>
+      </div>
+    </div>
+    <a href="##" class="btn-red">Увійти</a>
+    <a href="##" class="lost-pass">Забули пароль?</a>
+    <div id="closeLogin" class="close-popup">
+      <svg viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M32 1L1 32M1 1L32 32" stroke="#E93A53" stroke-width="2" />
+      </svg>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
