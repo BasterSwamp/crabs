@@ -7,6 +7,10 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css"
+  />
   <link rel="stylesheet" href="css/style.min.css" />
   <title>Карточка товару</title>
 </head>
@@ -288,8 +292,14 @@
             viewBox="0 0 30 30"
             fill="none"
           >
-            < ect x="30" width="30" height="30" rx="3" transform="rotate(90 30
-            0)" fill="#E93A53" />
+            <rect
+              x="30"
+              width="30"
+              height="30"
+              rx="3"
+              transform="rotate(90 30 0)"
+              fill="#E93A53"
+            />
             <path
               d="M12 15.9316L15.182 12.7496L18.364 15.9316"
               stroke="white"
@@ -307,55 +317,87 @@
         </div>
         <div class="card-main container">
           <div class="card-main__column">
-            <div class="card-main__image main-image">
-              <img src="img/card-image.jpg" alt="card-image" />
-              <div class="card-main__icons">
-                <div class="card-main__tag">
-                  <svg
-                    width="31"
-                    height="20"
-                    viewBox="0 0 31 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M3.71429 1H19C19.5523 1 20 1.44772 20 2V2.69643M27.4643 8.46429H21C20.4477 8.46429 20 8.01657 20 7.46428V2.69643M27.4643 8.46429L28.9289 10.2219C29.0787 10.4016 29.1607 10.6281 29.1607 10.862V15.6071C29.1607 16.1594 28.713 16.6071 28.1607 16.6071H26.1071M27.4643 8.46429L24.6924 3.22854C24.5191 2.90118 24.179 2.69643 23.8086 2.69643H20M19.6607 16.6071H13.8929M7.44643 16.6071H3.71429M8.125 12.1964H2.69643M10.5 8.46429H1M11.8571 4.73214H2.69643"
-                      stroke="#E93A53"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <circle
-                      cx="10.5003"
-                      cy="16.6077"
-                      r="2.39286"
-                      stroke="#E93A53"
-                      stroke-width="2"
-                    />
-                    <circle
-                      cx="22.7141"
-                      cy="16.6077"
-                      r="2.39286"
-                      stroke="#E93A53"
-                      stroke-width="2"
-                    />
-                  </svg>
-                  <span>Під замовлення</span>
-                </div>
-                <div class="card-main__icon-right">
-                  <img src="img/percentage.png" alt="percentage" />
-                  <img src="img/paw.png" alt="paw" />
-                </div>
+            <div class="card-main__icons">
+              <div class="card-main__tag">
+                <svg
+                  width="31"
+                  height="20"
+                  viewBox="0 0 31 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.71429 1H19C19.5523 1 20 1.44772 20 2V2.69643M27.4643 8.46429H21C20.4477 8.46429 20 8.01657 20 7.46428V2.69643M27.4643 8.46429L28.9289 10.2219C29.0787 10.4016 29.1607 10.6281 29.1607 10.862V15.6071C29.1607 16.1594 28.713 16.6071 28.1607 16.6071H26.1071M27.4643 8.46429L24.6924 3.22854C24.5191 2.90118 24.179 2.69643 23.8086 2.69643H20M19.6607 16.6071H13.8929M7.44643 16.6071H3.71429M8.125 12.1964H2.69643M10.5 8.46429H1M11.8571 4.73214H2.69643"
+                    stroke="#E93A53"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="10.5003"
+                    cy="16.6077"
+                    r="2.39286"
+                    stroke="#E93A53"
+                    stroke-width="2"
+                  />
+                  <circle
+                    cx="22.7141"
+                    cy="16.6077"
+                    r="2.39286"
+                    stroke="#E93A53"
+                    stroke-width="2"
+                  />
+                </svg>
+                <span>Під замовлення</span>
+              </div>
+              <div class="card-main__icon-right">
+                <img src="img/percentage.png" alt="percentage" />
+                <img src="img/paw.png" alt="paw" />
               </div>
             </div>
-            <div class="card-main__image">
-              <img src="img/card-image2.jpg" alt="card-image" />
+            <div thumbsSlider="" class="gallery">
+              <div class="swiper-wrapper">
+                <a
+                  href="img/card-image.jpg"
+                  class="card-main__image main-image swiper-slide"
+                >
+                  <img src="img/card-image.jpg" alt="card-image" />
+                </a>
+                <a
+                  href="img/card-image2.jpg"
+                  class="card-main__image swiper-slide"
+                >
+                  <img src="img/card-image2.jpg" alt="card-image" />
+                </a>
+                <a
+                  href="img/card-image3.jpg"
+                  class="card-main__image swiper-slide"
+                >
+                  <img src="img/card-image3.jpg" alt="card-image" />
+                </a>
+                <a
+                  href="img/card-image4.jpg"
+                  class="card-main__image swiper-slide"
+                >
+                  <img src="img/card-image4.jpg" alt="card-image" />
+                </a>
+              </div>
             </div>
-            <div class="card-main__image">
-              <img src="img/card-image3.jpg" alt="card-image" />
-            </div>
-            <div class="card-main__image">
-              <img src="img/card-image4.jpg" alt="card-image" />
+            <div class="gallery-mini">
+              <div class="swiper-wrapper">
+                <div class="gallery-mini__image swiper-slide">
+                  <img src="img/card-image.jpg" alt="card-image" />
+                </div>
+                <div class="gallery-mini__image swiper-slide">
+                  <img src="img/card-image2.jpg" alt="card-image" />
+                </div>
+                <div class="gallery-mini__image swiper-slide">
+                  <img src="img/card-image3.jpg" alt="card-image" />
+                </div>
+                <div class="gallery-mini__image swiper-slide">
+                  <img src="img/card-image4.jpg" alt="card-image" />
+                </div>
+              </div>
             </div>
           </div>
           <div class="card-main__column">
@@ -3475,6 +3517,12 @@
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        baguetteBox.run(".gallery");
+      });
+    </script>
     <script src="js/app.min.js"></script>
   </body>
 </html>
