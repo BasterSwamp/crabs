@@ -3305,6 +3305,7 @@ svg.bag {
   padding: 9px 0;
   background: #f8f7f7;
   white-space: nowrap;
+  overflow: hidden;
 }
 .breadcrambs a {
   color: #c1c1c1;
