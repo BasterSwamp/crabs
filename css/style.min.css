@@ -376,6 +376,7 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
   text-align: center;
+  margin: auto 0;
 }
 @media (max-width: 119.875em) {
   .header__catalogue span {
