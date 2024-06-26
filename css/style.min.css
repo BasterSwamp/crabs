@@ -352,7 +352,6 @@ body {
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  padding: 2.5px 4.3px;
   min-width: 14px;
   height: 14px;
   bottom: 0;
@@ -360,24 +359,21 @@ body {
   border-radius: 50%;
   background: #e93a53;
   color: #fff;
-  font-size: 0.5625rem;
+  font-size: rem(9);
+  line-height: 15px;
   font-family: MazzardM;
   font-weight: 600;
-  margin: auto 0;
 }
 .header__btn .c-counter__text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   overflow: hidden;
   display: inline-block;
-  width: 100%;
-  max-width: 100%;
   white-space: nowrap;
   text-overflow: ellipsis;
   text-align: center;
-  margin: auto 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -46%);
 }
 @media (max-width: 119.875em) {
   .header__catalogue span {
