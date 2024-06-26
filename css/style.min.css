@@ -359,20 +359,23 @@ body {
   border-radius: 50%;
   background: #e93a53;
   color: #fff;
-  font-size: rem(8);
+  font-size: rem(9);
   font-family: MazzardM;
   font-weight: 600;
 }
 .header__btn .c-counter__text {
+  padding: 2.5px 0;
   position: absolute;
   overflow: hidden;
   display: inline-block;
+  width: 100%;
+  max-width: 100%;
   white-space: nowrap;
   text-overflow: ellipsis;
   text-align: center;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -46%);
+  transform: translate(-50%, -50%);
 }
 @media (max-width: 119.875em) {
   .header__catalogue span {
