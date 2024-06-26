@@ -363,6 +363,7 @@ body {
   font-size: 0.5625rem;
   font-family: MazzardM;
   font-weight: 600;
+  margin: auto 0;
 }
 .header__btn .c-counter__text {
   position: absolute;
