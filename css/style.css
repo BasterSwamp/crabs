@@ -344,7 +344,7 @@ body {
   border-radius: 50%;
   background: rgba(28, 46, 88, 0.03);
 }
-.header__btn .c-counter {
+.header__btn span {
   position: absolute;
   display: -webkit-box;
   display: -moz-box;
@@ -363,15 +363,9 @@ body {
   font-size: 0.5625rem;
   font-family: MazzardM;
   font-weight: 600;
-}
-.header__btn .c-counter__text {
   overflow: hidden;
-  display: inline-block;
-  width: 100%;
-  max-width: 100%;
   white-space: nowrap;
   text-overflow: ellipsis;
-  text-align: center;
 }
 @media (max-width: 119.875em) {
   .header__catalogue span {
@@ -4280,8 +4274,8 @@ svg.bag {
     font-size: 1rem;
   }
   .catalog-main article.active .catalog-card__icon-right img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
   .catalog-card {
     padding: 20px;
