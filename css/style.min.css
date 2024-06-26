@@ -360,6 +360,7 @@ body {
   background: #e93a53;
   color: #fff;
   font-size: rem(9);
+  line-height: 1;
   font-family: MazzardM;
   font-weight: 600;
 }
