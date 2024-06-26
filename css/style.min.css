@@ -352,7 +352,7 @@ body {
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  padding: 2.5px 4.3px;
+  padding: 2.5px 0;
   min-width: 14px;
   height: 14px;
   bottom: 0;
