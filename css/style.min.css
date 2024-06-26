@@ -359,9 +359,6 @@ body {
   border-radius: 50%;
   background: #e93a53;
   color: #fff;
-  font-size: rem(9);
-  font-family: MazzardM;
-  font-weight: 600;
 }
 .header__btn .c-counter__text {
   padding: 2.5px 0;
@@ -371,6 +368,9 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
   text-align: center;
+  font-size: rem(9);
+  font-family: MazzardM;
+  font-weight: 600;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
