@@ -352,8 +352,8 @@ body {
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 14px;
+  padding: 2.5px 4.3px;
+  min-width: 14px;
   height: 14px;
   bottom: 0;
   right: 0;
@@ -1425,7 +1425,7 @@ svg.bag {
   user-select: none;
 }
 .popular-slider .swiper-slide {
-  filter: blur(10px) grayscale(100%);
+  filter: blur(5px) grayscale(100%);
 }
 .popular-slider .swiper-slide-active {
   filter: saturate(1);
@@ -1438,16 +1438,16 @@ svg.bag {
 }
 @media (max-width: 119.875em) {
   .popular-slider {
-    width: 1150px;
+    width: 1050px;
   }
   .popular-slider__gallary {
-    width: 1150px;
+    width: 1050px;
   }
   .popular-slider .popular-btn-prev {
-    left: 130px;
+    left: 70px;
   }
   .popular-slider .popular-btn-next {
-    right: 90px;
+    right: 30px;
   }
 }
 @media (max-width: 89.99875em) {
