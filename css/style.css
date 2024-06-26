@@ -243,7 +243,7 @@ body {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0px;
-  z-index: 100;
+  z-index: 19;
 }
 .header__content {
   position: relative;
@@ -344,16 +344,17 @@ body {
   border-radius: 50%;
   background: rgba(28, 46, 88, 0.03);
 }
-.header__btn span {
+.header__btn .c-counter {
   position: absolute;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 2.5px 4.3px;
+  min-width: 14px;
+  height: 14px;
   bottom: 0;
   right: 0;
   border-radius: 50%;
@@ -362,6 +363,15 @@ body {
   font-size: 0.5625rem;
   font-family: MazzardM;
   font-weight: 600;
+}
+.header__btn .c-counter__text {
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
 }
 @media (max-width: 119.875em) {
   .header__catalogue span {
@@ -2293,6 +2303,9 @@ svg.bag {
   font-weight: 500;
   margin: 20px 0 7px;
 }
+.about-us__card h3 span:nth-child(2) {
+  display: none;
+}
 .about-us__card p {
   font-size: 1.125rem;
   line-height: 1.25;
@@ -2349,19 +2362,42 @@ svg.bag {
     align-items: start;
     gap: 30px;
   }
+  .about-us__cards {
+    column-gap: 7px;
+    justify-content: space-between;
+  }
   .about-us__text {
     text-indent: 95px;
     font-size: 1.5625rem;
+  }
+  .about-us__card {
+    padding: 19px 20px 19px 18px;
+  }
+  .about-us__card p {
+    width: 100%;
   }
 }
 @media (max-width: 48.43625em) {
   .about-us__subtitle p {
     padding-bottom: 10px;
   }
+  .about-us__card h3 {
+    font-size: 1.125rem;
+    margin: 25px 0 10px;
+  }
+  .about-us__card h3 span:nth-child(1) {
+    display: none;
+  }
+  .about-us__card h3 span:nth-child(2) {
+    display: inline-block;
+  }
 }
 
 .card-body {
   flex: 0 1 32%;
+}
+.card-body:nth-last-child(1) {
+  display: none;
 }
 .card-body img {
   border-radius: 10px;
@@ -2377,15 +2413,51 @@ svg.bag {
 @media (max-width: 63.99875em) {
   .card-body {
     flex: 0 1 48%;
+    min-height: 189px;
   }
 }
 @media (max-width: 48.43625em) {
   .card-body {
-    flex: 0 1 100%;
-    min-height: 189px;
+    flex: 0 1 48%;
   }
   .card-body:nth-child(1) {
     min-height: 0px;
+    order: 0;
+    flex: 0 1 100%;
+  }
+  .card-body:nth-child(2) {
+    order: 1;
+  }
+  .card-body:nth-child(3) {
+    order: 2;
+  }
+  .card-body:nth-child(4) {
+    order: 4;
+  }
+  .card-body:nth-child(5) {
+    order: 5;
+  }
+  .card-body:nth-child(6) {
+    order: 7;
+  }
+  .card-body:nth-child(7) {
+    order: 3;
+    flex: 0 1 100%;
+    height: 189px;
+  }
+  .card-body:nth-child(8) {
+    order: 8;
+  }
+  .card-body:nth-child(9) {
+    order: 6;
+    flex: 0 1 100%;
+    height: 189px;
+  }
+  .card-body:nth-last-child(1) {
+    display: block;
+    order: 9;
+    height: 189px;
+    flex: 0 1 100%;
   }
 }
 
@@ -2916,6 +2988,11 @@ svg.bag {
   padding: 5px 8px;
   background: #fff;
   border-radius: 3px;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  display: -o-inline-flex;
+  display: inline-flex;
 }
 .writings-slider__info span {
   display: block;
@@ -2983,10 +3060,14 @@ svg.bag {
     left: auto;
   }
   .writings-slider__info span {
-    margin: 36px 0 5px;
+    margin: 13px 0 5px;
   }
   .writings-slider__info a {
     font-size: 1rem;
+  }
+  .writings-slider__info h3 {
+    -webkit-line-clamp: unset;
+    overflow: visible;
   }
 }
 
@@ -3305,6 +3386,7 @@ svg.bag {
   padding: 9px 0;
   background: #f8f7f7;
   white-space: nowrap;
+  overflow: hidden;
 }
 .breadcrambs a {
   color: #c1c1c1;
@@ -3493,6 +3575,9 @@ svg.bag {
 .catalog-main article .catalog-card__bag {
   display: none;
 }
+.catalog-main article .banner-contain {
+  display: none;
+}
 .catalog-main article.active {
   display: -webkit-box;
   display: -moz-box;
@@ -3503,6 +3588,21 @@ svg.bag {
   flex-wrap: wrap;
   column-gap: 10px;
   row-gap: 30px;
+}
+.catalog-main article.active .banner-contain {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  gap: 10px;
+}
+.catalog-main article.active .banner2 {
+  flex: 0 1 49.6%;
+}
+.catalog-main article.active .banner1 {
+  display: none;
 }
 .catalog-main article.active .catalog-card {
   flex: 0 1 32.7%;
@@ -4046,6 +4146,22 @@ svg.bag {
   .catalog-main article.active {
     gap: 20px;
   }
+  .catalog-main article.active .banner-contain {
+    margin: 20px 0;
+    gap: 20px;
+  }
+  .catalog-main article.active .banner2 {
+    flex: 0 1 49%;
+  }
+  .catalog-main article.active .banner2 .catalog-banner__content {
+    padding: 30px 20px;
+  }
+  .catalog-main article.active .banner2 .catalog-banner__title {
+    font-size: 1.5625rem;
+  }
+  .catalog-main article.active .banner2 .catalog-banner__button {
+    padding: 30px 0 40px;
+  }
   .catalog-main article.active .catalog-card {
     flex: 0 1 32%;
   }
@@ -4131,6 +4247,21 @@ svg.bag {
   }
   .catalog-main__btn {
     margin-top: 40px;
+  }
+  .catalog-main article.active .banner-contain {
+    flex-wrap: wrap;
+  }
+  .catalog-main article.active .banner2 {
+    flex: 0 1 100%;
+  }
+  .catalog-main article.active .banner2 .catalog-banner__content {
+    padding: 30px 30px;
+  }
+  .catalog-main article.active .banner2 .catalog-banner__title {
+    font-size: 1.75rem;
+  }
+  .catalog-main article.active .banner2 .catalog-banner__button {
+    padding: 30px 0;
   }
   .catalog-main article.active .catalog-card {
     flex: 0 1 48%;
@@ -4437,6 +4568,24 @@ svg.bag {
   .catalog-main article.active {
     column-gap: 15px;
     row-gap: 30px;
+  }
+  .catalog-main article.active .banner-contain {
+    margin: 0;
+    gap: 30px;
+  }
+  .catalog-main article.active .banner2 {
+    flex: 0 1 100%;
+  }
+  .catalog-main article.active .banner2 .catalog-banner__content {
+    padding: 25px;
+    min-height: 100%;
+  }
+  .catalog-main article.active .banner2 .catalog-banner__title {
+    font-size: 1.4375rem;
+    max-width: 100%;
+  }
+  .catalog-main article.active .banner2 .catalog-banner__button {
+    padding: 30px 0 0;
   }
   .catalog-main article.active .catalog-card {
     flex: 0 1 47%;
