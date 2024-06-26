@@ -346,12 +346,6 @@ body {
 }
 .header__btn span {
   position: absolute;
-  display: -webkit-inline-flex;
-  display: -moz-inline-flex;
-  display: -ms-inline-flex;
-  display: -o-inline-flex;
-  display: inline-flex;
-  align-items: center;
   padding: 2.5px 4.3px;
   min-width: 14px;
   height: 14px;
@@ -361,7 +355,7 @@ body {
   background: #e93a53;
   color: #fff;
   font-size: 0.5625rem;
-  line-height: 1;
+  line-height: 14px;
   font-family: MazzardM;
   font-weight: 600;
   overflow: hidden;
