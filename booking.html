@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="ua">
   <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css"
-  />
-  <link rel="stylesheet" href="css/style.min.css" />
-  <title>Відгуки</title>
-</head>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Бронювання</title>
+  </head>
   <body>
     <div class="wrapper">
       <header class="header">
         <div class="header__content container">
           <div class="header__column">
             <a href="catalog.html" class="header__catalogue">
-              <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <rect width="5" height="5" rx="1" fill="#E93A53" />
                 <rect y="10" width="5" height="5" rx="1" fill="#E93A53" />
-                <rect x="10" y="10" width="5" height="5" rx="1" fill="#E93A53" />
+                <rect
+                  x="10"
+                  y="10"
+                  width="5"
+                  height="5"
+                  rx="1"
+                  fill="#E93A53"
+                />
                 <rect x="10" width="5" height="5" rx="1" fill="#E93A53" />
               </svg>
               <span>Каталог</span>
@@ -59,15 +69,15 @@
                 </svg>
               </a>
               <form action="#" class="search-form__item">
-                  <a href="#" class="search-form__btn"></a>
-                  <input
-                      type="search"
-                      name="form[]"
-                      data-value="Search for minimalist chair"
-                      autocomplete="off"
-                      class="search-form__input"
-                      placeholder="Search"
-                  />
+                <a href="#" class="search-form__btn"></a>
+                <input
+                  type="search"
+                  name="form[]"
+                  data-value="Search for minimalist chair"
+                  autocomplete="off"
+                  class="search-form__input"
+                  placeholder="Search"
+                />
               </form>
             </div>
             <div class="header__buttons">
@@ -336,362 +346,552 @@
             />
           </symbol>
           <symbol id="delete" viewBox="0 0 16 18" fill="none">
-            <path d="M10.75 17.9375H5.25C4.33832 17.9375 3.46398 17.5753 2.81932 16.9307C2.17466 16.286 1.8125 15.4117 1.8125 14.5V6.25C1.8125 6.06766 1.88493 5.8928 2.01386 5.76386C2.1428 5.63493 2.31766 5.5625 2.5 5.5625C2.68234 5.5625 2.8572 5.63493 2.98614 5.76386C3.11507 5.8928 3.1875 6.06766 3.1875 6.25V14.5C3.1875 15.047 3.4048 15.5716 3.79159 15.9584C4.17839 16.3452 4.70299 16.5625 5.25 16.5625H10.75C11.297 16.5625 11.8216 16.3452 12.2084 15.9584C12.5952 15.5716 12.8125 15.047 12.8125 14.5V6.25C12.8125 6.06766 12.8849 5.8928 13.0139 5.76386C13.1428 5.63493 13.3177 5.5625 13.5 5.5625C13.6823 5.5625 13.8572 5.63493 13.9861 5.76386C14.1151 5.8928 14.1875 6.06766 14.1875 6.25V14.5C14.1875 15.4117 13.8253 16.286 13.1807 16.9307C12.536 17.5753 11.6617 17.9375 10.75 17.9375Z"/>
-            <path d="M14.875 4.1875H1.125C0.942664 4.1875 0.767795 4.11507 0.638864 3.98614C0.509933 3.8572 0.4375 3.68234 0.4375 3.5C0.4375 3.31766 0.509933 3.1428 0.638864 3.01386C0.767795 2.88493 0.942664 2.8125 1.125 2.8125H14.875C15.0573 2.8125 15.2322 2.88493 15.3611 3.01386C15.4901 3.1428 15.5625 3.31766 15.5625 3.5C15.5625 3.68234 15.4901 3.8572 15.3611 3.98614C15.2322 4.11507 15.0573 4.1875 14.875 4.1875Z"/>
-            <path d="M10.75 4.1875H5.25C5.06766 4.1875 4.8928 4.11507 4.76386 3.98614C4.63493 3.8572 4.5625 3.68234 4.5625 3.5V2.125C4.5625 1.57799 4.7798 1.05339 5.16659 0.666592C5.55339 0.279799 6.07799 0.0625 6.625 0.0625H9.375C9.92201 0.0625 10.4466 0.279799 10.8334 0.666592C11.2202 1.05339 11.4375 1.57799 11.4375 2.125V3.5C11.4375 3.68234 11.3651 3.8572 11.2361 3.98614C11.1072 4.11507 10.9323 4.1875 10.75 4.1875ZM5.9375 2.8125H10.0625V2.125C10.0625 1.94266 9.99007 1.7678 9.86114 1.63886C9.73221 1.50993 9.55734 1.4375 9.375 1.4375H6.625C6.44266 1.4375 6.2678 1.50993 6.13886 1.63886C6.00993 1.7678 5.9375 1.94266 5.9375 2.125V2.8125Z"/>
-            <path d="M6.625 13.8125C6.44266 13.8125 6.2678 13.7401 6.13886 13.6111C6.00993 13.4822 5.9375 13.3073 5.9375 13.125V8.3125C5.9375 8.13016 6.00993 7.9553 6.13886 7.82636C6.2678 7.69743 6.44266 7.625 6.625 7.625C6.80734 7.625 6.9822 7.69743 7.11114 7.82636C7.24007 7.9553 7.3125 8.13016 7.3125 8.3125V13.125C7.3125 13.3073 7.24007 13.4822 7.11114 13.6111C6.9822 13.7401 6.80734 13.8125 6.625 13.8125Z"/>
-            <path d="M9.375 13.8125C9.19266 13.8125 9.01779 13.7401 8.88886 13.6111C8.75993 13.4822 8.6875 13.3073 8.6875 13.125V8.3125C8.6875 8.13016 8.75993 7.9553 8.88886 7.82636C9.01779 7.69743 9.19266 7.625 9.375 7.625C9.55734 7.625 9.73221 7.69743 9.86114 7.82636C9.99007 7.9553 10.0625 8.13016 10.0625 8.3125V13.125C10.0625 13.3073 9.99007 13.4822 9.86114 13.6111C9.73221 13.7401 9.55734 13.8125 9.375 13.8125Z"/>
+            <path
+              d="M10.75 17.9375H5.25C4.33832 17.9375 3.46398 17.5753 2.81932 16.9307C2.17466 16.286 1.8125 15.4117 1.8125 14.5V6.25C1.8125 6.06766 1.88493 5.8928 2.01386 5.76386C2.1428 5.63493 2.31766 5.5625 2.5 5.5625C2.68234 5.5625 2.8572 5.63493 2.98614 5.76386C3.11507 5.8928 3.1875 6.06766 3.1875 6.25V14.5C3.1875 15.047 3.4048 15.5716 3.79159 15.9584C4.17839 16.3452 4.70299 16.5625 5.25 16.5625H10.75C11.297 16.5625 11.8216 16.3452 12.2084 15.9584C12.5952 15.5716 12.8125 15.047 12.8125 14.5V6.25C12.8125 6.06766 12.8849 5.8928 13.0139 5.76386C13.1428 5.63493 13.3177 5.5625 13.5 5.5625C13.6823 5.5625 13.8572 5.63493 13.9861 5.76386C14.1151 5.8928 14.1875 6.06766 14.1875 6.25V14.5C14.1875 15.4117 13.8253 16.286 13.1807 16.9307C12.536 17.5753 11.6617 17.9375 10.75 17.9375Z"
+            />
+            <path
+              d="M14.875 4.1875H1.125C0.942664 4.1875 0.767795 4.11507 0.638864 3.98614C0.509933 3.8572 0.4375 3.68234 0.4375 3.5C0.4375 3.31766 0.509933 3.1428 0.638864 3.01386C0.767795 2.88493 0.942664 2.8125 1.125 2.8125H14.875C15.0573 2.8125 15.2322 2.88493 15.3611 3.01386C15.4901 3.1428 15.5625 3.31766 15.5625 3.5C15.5625 3.68234 15.4901 3.8572 15.3611 3.98614C15.2322 4.11507 15.0573 4.1875 14.875 4.1875Z"
+            />
+            <path
+              d="M10.75 4.1875H5.25C5.06766 4.1875 4.8928 4.11507 4.76386 3.98614C4.63493 3.8572 4.5625 3.68234 4.5625 3.5V2.125C4.5625 1.57799 4.7798 1.05339 5.16659 0.666592C5.55339 0.279799 6.07799 0.0625 6.625 0.0625H9.375C9.92201 0.0625 10.4466 0.279799 10.8334 0.666592C11.2202 1.05339 11.4375 1.57799 11.4375 2.125V3.5C11.4375 3.68234 11.3651 3.8572 11.2361 3.98614C11.1072 4.11507 10.9323 4.1875 10.75 4.1875ZM5.9375 2.8125H10.0625V2.125C10.0625 1.94266 9.99007 1.7678 9.86114 1.63886C9.73221 1.50993 9.55734 1.4375 9.375 1.4375H6.625C6.44266 1.4375 6.2678 1.50993 6.13886 1.63886C6.00993 1.7678 5.9375 1.94266 5.9375 2.125V2.8125Z"
+            />
+            <path
+              d="M6.625 13.8125C6.44266 13.8125 6.2678 13.7401 6.13886 13.6111C6.00993 13.4822 5.9375 13.3073 5.9375 13.125V8.3125C5.9375 8.13016 6.00993 7.9553 6.13886 7.82636C6.2678 7.69743 6.44266 7.625 6.625 7.625C6.80734 7.625 6.9822 7.69743 7.11114 7.82636C7.24007 7.9553 7.3125 8.13016 7.3125 8.3125V13.125C7.3125 13.3073 7.24007 13.4822 7.11114 13.6111C6.9822 13.7401 6.80734 13.8125 6.625 13.8125Z"
+            />
+            <path
+              d="M9.375 13.8125C9.19266 13.8125 9.01779 13.7401 8.88886 13.6111C8.75993 13.4822 8.6875 13.3073 8.6875 13.125V8.3125C8.6875 8.13016 8.75993 7.9553 8.88886 7.82636C9.01779 7.69743 9.19266 7.625 9.375 7.625C9.55734 7.625 9.73221 7.69743 9.86114 7.82636C9.99007 7.9553 10.0625 8.13016 10.0625 8.3125V13.125C10.0625 13.3073 9.99007 13.4822 9.86114 13.6111C9.73221 13.7401 9.55734 13.8125 9.375 13.8125Z"
+            />
           </symbol>
           <symbol id="checkpoint-icon" viewBox="0 0 23 23" fill="none">
-            <circle cx="11.5" cy="11.5" r="11.5" fill="#E93A53"/>
-            <path d="M6 12.5L10 16L17 7" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="11.5" cy="11.5" r="11.5" fill="#E93A53" />
+            <path
+              d="M6 12.5L10 16L17 7"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
           </symbol>
           <symbol id="heart-icon" viewBox="0 0 15 13" fill="none">
-              <path d="M1.7483 6.53177L7.38583 11.9482L13.0234 6.53177C13.6501 5.92965 14.0021 5.113 14.0021 4.26147C14.0021 2.48826 12.506 1.05078 10.6604 1.05078C9.77411 1.05078 8.92413 1.38905 8.29743 1.99117L7.38583 2.86702L6.47423 1.99117C5.84753 1.38905 4.99755 1.05078 4.11127 1.05078C2.26568 1.05078 0.769531 2.48826 0.769531 4.26147C0.769531 5.113 1.1216 5.92965 1.7483 6.53177Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>                 
+            <path
+              d="M1.7483 6.53177L7.38583 11.9482L13.0234 6.53177C13.6501 5.92965 14.0021 5.113 14.0021 4.26147C14.0021 2.48826 12.506 1.05078 10.6604 1.05078C9.77411 1.05078 8.92413 1.38905 8.29743 1.99117L7.38583 2.86702L6.47423 1.99117C5.84753 1.38905 4.99755 1.05078 4.11127 1.05078C2.26568 1.05078 0.769531 2.48826 0.769531 4.26147C0.769531 5.113 1.1216 5.92965 1.7483 6.53177Z"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
           </symbol>
         </svg>
         <div class="breadcrambs">
           <div class="container">
             <span> <a href="index.html">Повернутися назад</a> / </span>
-            <span class="active">Відгуки</span>
+            <span class="active">Бронювання</span>
           </div>
         </div>
-        <div class="feedback-header container">
-          <div class="feedback-header__left">
-            <h1>Відгуки</h1>
-            <a href="##">
-              <span>
-                Найновіші
-                <svg
-                  width="7"
-                  height="5"
-                  viewBox="0 0 7 5"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7 3.79191e-08L3.5 5L0 0L7 3.79191e-08Z"
-                    fill="#E93A53"
-                  />
-                </svg>
-              </span>
-              <svg
-                width="32"
-                height="22"
-                viewBox="0 0 32 22"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                class="new-icon"
+        <section class="booking">
+          <div class="container">
+            <h2 class="title orders__title booking__title">
+              Бронювання до пологів
+            </h2>
+            <div class="orders__buttons">
+              <a href="#orederTab1" class="btn btn--light">Я діючий клієнт</a>
+              <a href="#orederTab2" class="btn btn--light">Я новий покупець</a>
+            </div>
+
+            <div class="orders__content">
+              <form
+                class="orders__registration registration-form"
+                id="orederTab1"
               >
-                <path
-                  d="M5 1V20.5M5 20.5L1 17M5 20.5L9 17"
-                  stroke="#E93A53"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M12.5 2H30.5M12.5 6.5H27.0946M12.5 11H24.1757M12.5 15.5H20.7703M12.5 20H17.3649"
-                  stroke="#3D3D3D"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </a>
+                <div class="registration-form__top">
+                  <h3 class="registration-form__title booking__subtitle">
+                    Оформлення бронювання1
+                  </h3>
+                  <p class="booking__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+
+                <div class="registration-form__block">
+                  <h4
+                    class="registration-form__heading registration-form__heading--first"
+                  >
+                    Контактні дані
+                  </h4>
+                  <div
+                    class="registration-form__details registration-form__details--contact"
+                  >
+                    <input
+                      type="text"
+                      name="name"
+                      class="registration-form__input registration-form__input--name"
+                      placeholder="Ваше імʼя та прізвище"
+                    />
+                    <div class="registration-form__select">
+                      <div class="registration-form__select-wrap">
+                        <div class="registration-form__select-header">
+                          <span class="registration-form__select-current">
+                            <img
+                              src="./img/icons/ukraine.svg"
+                              alt="flag of Ukraine"
+                            />
+                          </span>
+                        </div>
+                        <ul class="registration-form__select-list">
+                          <li class="registration-form__select-item">
+                            <img
+                              src="./img/icons/ukraine.svg"
+                              alt="flag of Ukraine"
+                            />
+                            <span class="registration-form__select-placeholder"
+                              >+5 (___) ___ ____*</span
+                            >
+                          </li>
+                          <li class="registration-form__select-item">
+                            <img
+                              src="./img/icons/ukraine.svg"
+                              alt="flag of Ukraine"
+                            />
+                            <span class="registration-form__select-placeholder"
+                              >+1 (___) ___ ____*</span
+                            >
+                          </li>
+                          <li class="registration-form__select-item">
+                            <img
+                              src="./img/icons/ukraine.svg"
+                              alt="flag of Ukraine"
+                            />
+                            <span class="registration-form__select-placeholder"
+                              >+39 (___) ___ ____*</span
+                            >
+                          </li>
+                        </ul>
+                      </div>
+
+                      <input
+                        type="text"
+                        name="ukraine-phone"
+                        placeholder="+38 (___) ___ ____*"
+                        class="registration-form__phone"
+                      />
+                    </div>
+                    <!-- 
+                                        <input
+                                            type="text"
+                                            name="city"
+                                            class="registration-form__input registration-form__input--name"
+                                            placeholder="Місто"
+                                        /> -->
+                  </div>
+                </div>
+                <div class="registration-form__block">
+                  <h4 class="registration-form__heading">Оплата</h4>
+                  <div
+                    class="registration-form__details registration-form__details--payment"
+                  >
+                    <div
+                      class="registration-form__group registration-form__group--payment"
+                    >
+                      <label
+                        for="payment-percentage"
+                        class="registration-form__label"
+                      >
+                        <input
+                          type="radio"
+                          name="booking-payment"
+                          id="payment-percentage"
+                          value="payment-percentage"
+                        />
+                        <span class="registration-form__custom-check"></span>
+                        Оплатити 10% від вартості замовлення
+                      </label>
+                      <label
+                        for="consultation"
+                        class="registration-form__label"
+                      >
+                        <input
+                          type="radio"
+                          name="booking-payment"
+                          id="consultation"
+                          value="consultation"
+                        />
+                        <span class="registration-form__custom-check"></span>
+                        Отримати консультацію менеджера
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="registration-form__block">
+                  <div
+                    class="registration-form__details registration-form__details--payment registration-form__bottom"
+                  >
+                    <div class="registration-form__submit">
+                      <input
+                        type="submit"
+                        value="Забронювати до пологів"
+                        class="registration-form__btn btn"
+                      />
+                    </div>
+                    <label
+                      for="privacy-policy"
+                      class="registration-form__label registration-form__label--last"
+                    >
+                      <input
+                        type="checkbox"
+                        name="privacy-policy"
+                        id="privacy-policy"
+                        value="privacy-policy"
+                        checked
+                      />
+                      <span class="registration-form__custom-checkbox"></span>
+                      Я погоджуюсь з політикою конфіденційності
+                    </label>
+                  </div>
+                </div>
+              </form>
+              <form
+                class="orders__registration registration-form"
+                id="orederTab2"
+              >
+                <div class="registration-form__top">
+                  <h3 class="registration-form__title booking__subtitle">
+                    Оформлення бронювання2
+                  </h3>
+                  <p class="booking__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+
+                <div class="registration-form__block">
+                  <h4
+                    class="registration-form__heading registration-form__heading--first"
+                  >
+                    Контактні дані
+                  </h4>
+                  <div
+                    class="registration-form__details registration-form__details--contact"
+                  >
+                    <input
+                      type="text"
+                      name="name"
+                      class="registration-form__input registration-form__input--name"
+                      placeholder="Ваше імʼя та прізвище"
+                    />
+                    <div class="registration-form__select">
+                      <div class="registration-form__select-wrap">
+                        <div class="registration-form__select-header">
+                          <span class="registration-form__select-current">
+                            <img
+                              src="./img/icons/ukraine.svg"
+                              alt="flag of Ukraine"
+                            />
+                          </span>
+                        </div>
+                        <ul class="registration-form__select-list">
+                          <li class="registration-form__select-item">
+                            <img
+                              src="./img/icons/ukraine.svg"
+                              alt="flag of Ukraine"
+                            />
+                            <span class="registration-form__select-placeholder"
+                              >+5 (___) ___ ____*</span
+                            >
+                          </li>
+                          <li class="registration-form__select-item">
+                            <img
+                              src="./img/icons/ukraine.svg"
+                              alt="flag of Ukraine"
+                            />
+                            <span class="registration-form__select-placeholder"
+                              >+1 (___) ___ ____*</span
+                            >
+                          </li>
+                          <li class="registration-form__select-item">
+                            <img
+                              src="./img/icons/ukraine.svg"
+                              alt="flag of Ukraine"
+                            />
+                            <span class="registration-form__select-placeholder"
+                              >+39 (___) ___ ____*</span
+                            >
+                          </li>
+                        </ul>
+                      </div>
+
+                      <input
+                        type="text"
+                        name="ukraine-phone"
+                        placeholder="+38 (___) ___ ____*"
+                        class="registration-form__phone"
+                      />
+                    </div>
+                    <!-- 
+                                        <input
+                                            type="text"
+                                            name="city"
+                                            class="registration-form__input registration-form__input--name"
+                                            placeholder="Місто"
+                                        /> -->
+                  </div>
+                </div>
+                <div class="registration-form__block">
+                  <h4 class="registration-form__heading">Оплата</h4>
+                  <div
+                    class="registration-form__details registration-form__details--payment"
+                  >
+                    <div
+                      class="registration-form__group registration-form__group--payment"
+                    >
+                      <label
+                        for="payment-percentage"
+                        class="registration-form__label"
+                      >
+                        <input
+                          type="radio"
+                          name="booking-payment"
+                          id="payment-percentage"
+                          value="payment-percentage"
+                        />
+                        <span class="registration-form__custom-check"></span>
+                        Оплатити 10% від вартості замовлення
+                      </label>
+                      <label
+                        for="consultation"
+                        class="registration-form__label"
+                      >
+                        <input
+                          type="radio"
+                          name="booking-payment"
+                          id="consultation"
+                          value="consultation"
+                        />
+                        <span class="registration-form__custom-check"></span>
+                        Отримати консультацію менеджера
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="registration-form__block">
+                  <div
+                    class="registration-form__details registration-form__details--payment registration-form__bottom"
+                  >
+                    <div class="registration-form__submit">
+                      <input
+                        type="submit"
+                        value="Забронювати до пологів"
+                        class="registration-form__btn btn"
+                      />
+                    </div>
+                    <label
+                      for="privacy-policy"
+                      class="registration-form__label registration-form__label--last"
+                    >
+                      <input
+                        type="checkbox"
+                        name="privacy-policy"
+                        id="privacy-policy"
+                        value="privacy-policy"
+                        checked
+                      />
+                      <span class="registration-form__custom-checkbox"></span>
+                      Я погоджуюсь з політикою конфіденційності
+                    </label>
+                  </div>
+                </div>
+              </form>
+
+              <div class="orders__info">
+                <h3 class="registration-form__title">Ваше замовлення</h3>
+                <div class="orders__list">
+                  <div class="product__item">
+                    <div class="product__image">
+                      <img
+                        src="./img/cybex-cloud.png"
+                        alt="Автокрісло Cybex Cloud T i-Size Wings"
+                      />
+                    </div>
+                    <div class="product__info">
+                      <div class="product__details">
+                        <p class="product__name">
+                          Автокрісло Cybex <br />
+                          Cloud T i-Size Wings
+                        </p>
+                        <div class="product__delete">
+                          <span>Видалити</span>
+                          <svg
+                            width="19"
+                            height="23"
+                            viewBox="0 0 19 23"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M12.875 22.4688H6.125C5.00612 22.4688 3.93306 22.0243 3.14189 21.2331C2.35072 20.4419 1.90625 19.3689 1.90625 18.25V8.125C1.90625 7.90122 1.99515 7.68661 2.15338 7.52838C2.31161 7.37015 2.52622 7.28125 2.75 7.28125C2.97378 7.28125 3.18839 7.37015 3.34662 7.52838C3.50486 7.68661 3.59375 7.90122 3.59375 8.125V18.25C3.59375 18.9213 3.86043 19.5652 4.33514 20.0399C4.80984 20.5146 5.45367 20.7812 6.125 20.7812H12.875C13.5463 20.7812 14.1902 20.5146 14.6649 20.0399C15.1396 19.5652 15.4062 18.9213 15.4062 18.25V8.125C15.4062 7.90122 15.4951 7.68661 15.6534 7.52838C15.8116 7.37015 16.0262 7.28125 16.25 7.28125C16.4738 7.28125 16.6884 7.37015 16.8466 7.52838C17.0049 7.68661 17.0938 7.90122 17.0938 8.125V18.25C17.0938 19.3689 16.6493 20.4419 15.8581 21.2331C15.0669 22.0243 13.9939 22.4688 12.875 22.4688Z"
+                              fill="#E93A53"
+                            />
+                            <path
+                              d="M17.9375 5.59375H1.0625C0.838724 5.59375 0.624113 5.50486 0.465879 5.34662C0.307645 5.18839 0.21875 4.97378 0.21875 4.75C0.21875 4.52622 0.307645 4.31161 0.465879 4.15338C0.624113 3.99515 0.838724 3.90625 1.0625 3.90625H17.9375C18.1613 3.90625 18.3759 3.99515 18.5341 4.15338C18.6924 4.31161 18.7812 4.52622 18.7812 4.75C18.7812 4.97378 18.6924 5.18839 18.5341 5.34662C18.3759 5.50486 18.1613 5.59375 17.9375 5.59375Z"
+                              fill="#E93A53"
+                            />
+                            <path
+                              d="M12.875 5.59375H6.125C5.90122 5.59375 5.68661 5.50486 5.52838 5.34662C5.37015 5.18839 5.28125 4.97378 5.28125 4.75V3.0625C5.28125 2.39117 5.54793 1.74734 6.02264 1.27264C6.49734 0.797935 7.14117 0.53125 7.8125 0.53125H11.1875C11.8588 0.53125 12.5027 0.797935 12.9774 1.27264C13.4521 1.74734 13.7188 2.39117 13.7188 3.0625V4.75C13.7188 4.97378 13.6299 5.18839 13.4716 5.34662C13.3134 5.50486 13.0988 5.59375 12.875 5.59375ZM6.96875 3.90625H12.0312V3.0625C12.0312 2.83872 11.9424 2.62411 11.7841 2.46588C11.6259 2.30764 11.4113 2.21875 11.1875 2.21875H7.8125C7.58872 2.21875 7.37411 2.30764 7.21588 2.46588C7.05764 2.62411 6.96875 2.83872 6.96875 3.0625V3.90625Z"
+                              fill="#E93A53"
+                            />
+                            <path
+                              d="M7.8125 17.4062C7.58872 17.4062 7.37411 17.3174 7.21588 17.1591C7.05765 17.0009 6.96875 16.7863 6.96875 16.5625V10.6562C6.96875 10.4325 7.05765 10.2179 7.21588 10.0596C7.37411 9.9014 7.58872 9.8125 7.8125 9.8125C8.03628 9.8125 8.25089 9.9014 8.40912 10.0596C8.56736 10.2179 8.65625 10.4325 8.65625 10.6562V16.5625C8.65625 16.7863 8.56736 17.0009 8.40912 17.1591C8.25089 17.3174 8.03628 17.4062 7.8125 17.4062Z"
+                              fill="#E93A53"
+                            />
+                            <path
+                              d="M11.1875 17.4062C10.9637 17.4062 10.7491 17.3174 10.5909 17.1591C10.4326 17.0009 10.3438 16.7863 10.3438 16.5625V10.6562C10.3438 10.4325 10.4326 10.2179 10.5909 10.0596C10.7491 9.9014 10.9637 9.8125 11.1875 9.8125C11.4113 9.8125 11.6259 9.9014 11.7841 10.0596C11.9424 10.2179 12.0312 10.4325 12.0312 10.6562V16.5625C12.0312 16.7863 11.9424 17.0009 11.7841 17.1591C11.6259 17.3174 11.4113 17.4062 11.1875 17.4062Z"
+                              fill="#E93A53"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="package__prices">
+                        <span class="current-price">17 200 ₴</span>
+                        <span class="old-price active">20 200 ₴</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product__item">
+                    <div class="product__image">
+                      <img
+                        src="./img/cybex-cloud.png"
+                        alt="Автокрісло Cybex Cloud T i-Size Wings"
+                      />
+                    </div>
+                    <div class="product__info">
+                      <div class="product__details">
+                        <p class="product__name">
+                          Автокрісло Cybex <br />
+                          Cloud T i-Size Wings
+                        </p>
+                        <div class="product__delete">
+                          <span>Видалити</span>
+                          <svg
+                            width="19"
+                            height="23"
+                            viewBox="0 0 19 23"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M12.875 22.4688H6.125C5.00612 22.4688 3.93306 22.0243 3.14189 21.2331C2.35072 20.4419 1.90625 19.3689 1.90625 18.25V8.125C1.90625 7.90122 1.99515 7.68661 2.15338 7.52838C2.31161 7.37015 2.52622 7.28125 2.75 7.28125C2.97378 7.28125 3.18839 7.37015 3.34662 7.52838C3.50486 7.68661 3.59375 7.90122 3.59375 8.125V18.25C3.59375 18.9213 3.86043 19.5652 4.33514 20.0399C4.80984 20.5146 5.45367 20.7812 6.125 20.7812H12.875C13.5463 20.7812 14.1902 20.5146 14.6649 20.0399C15.1396 19.5652 15.4062 18.9213 15.4062 18.25V8.125C15.4062 7.90122 15.4951 7.68661 15.6534 7.52838C15.8116 7.37015 16.0262 7.28125 16.25 7.28125C16.4738 7.28125 16.6884 7.37015 16.8466 7.52838C17.0049 7.68661 17.0938 7.90122 17.0938 8.125V18.25C17.0938 19.3689 16.6493 20.4419 15.8581 21.2331C15.0669 22.0243 13.9939 22.4688 12.875 22.4688Z"
+                              fill="#E93A53"
+                            />
+                            <path
+                              d="M17.9375 5.59375H1.0625C0.838724 5.59375 0.624113 5.50486 0.465879 5.34662C0.307645 5.18839 0.21875 4.97378 0.21875 4.75C0.21875 4.52622 0.307645 4.31161 0.465879 4.15338C0.624113 3.99515 0.838724 3.90625 1.0625 3.90625H17.9375C18.1613 3.90625 18.3759 3.99515 18.5341 4.15338C18.6924 4.31161 18.7812 4.52622 18.7812 4.75C18.7812 4.97378 18.6924 5.18839 18.5341 5.34662C18.3759 5.50486 18.1613 5.59375 17.9375 5.59375Z"
+                              fill="#E93A53"
+                            />
+                            <path
+                              d="M12.875 5.59375H6.125C5.90122 5.59375 5.68661 5.50486 5.52838 5.34662C5.37015 5.18839 5.28125 4.97378 5.28125 4.75V3.0625C5.28125 2.39117 5.54793 1.74734 6.02264 1.27264C6.49734 0.797935 7.14117 0.53125 7.8125 0.53125H11.1875C11.8588 0.53125 12.5027 0.797935 12.9774 1.27264C13.4521 1.74734 13.7188 2.39117 13.7188 3.0625V4.75C13.7188 4.97378 13.6299 5.18839 13.4716 5.34662C13.3134 5.50486 13.0988 5.59375 12.875 5.59375ZM6.96875 3.90625H12.0312V3.0625C12.0312 2.83872 11.9424 2.62411 11.7841 2.46588C11.6259 2.30764 11.4113 2.21875 11.1875 2.21875H7.8125C7.58872 2.21875 7.37411 2.30764 7.21588 2.46588C7.05764 2.62411 6.96875 2.83872 6.96875 3.0625V3.90625Z"
+                              fill="#E93A53"
+                            />
+                            <path
+                              d="M7.8125 17.4062C7.58872 17.4062 7.37411 17.3174 7.21588 17.1591C7.05765 17.0009 6.96875 16.7863 6.96875 16.5625V10.6562C6.96875 10.4325 7.05765 10.2179 7.21588 10.0596C7.37411 9.9014 7.58872 9.8125 7.8125 9.8125C8.03628 9.8125 8.25089 9.9014 8.40912 10.0596C8.56736 10.2179 8.65625 10.4325 8.65625 10.6562V16.5625C8.65625 16.7863 8.56736 17.0009 8.40912 17.1591C8.25089 17.3174 8.03628 17.4062 7.8125 17.4062Z"
+                              fill="#E93A53"
+                            />
+                            <path
+                              d="M11.1875 17.4062C10.9637 17.4062 10.7491 17.3174 10.5909 17.1591C10.4326 17.0009 10.3438 16.7863 10.3438 16.5625V10.6562C10.3438 10.4325 10.4326 10.2179 10.5909 10.0596C10.7491 9.9014 10.9637 9.8125 11.1875 9.8125C11.4113 9.8125 11.6259 9.9014 11.7841 10.0596C11.9424 10.2179 12.0312 10.4325 12.0312 10.6562V16.5625C12.0312 16.7863 11.9424 17.0009 11.7841 17.1591C11.6259 17.3174 11.4113 17.4062 11.1875 17.4062Z"
+                              fill="#E93A53"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="package__prices">
+                        <span class="current-price">17 200 ₴</span>
+                        <span class="old-price active">20 200 ₴</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product__item">
+                    <div class="product__image">
+                      <img
+                        src="./img/cybex-cloud.png"
+                        alt="Автокрісло Cybex Cloud T i-Size Wings"
+                      />
+                    </div>
+                    <div class="product__info">
+                      <div class="product__details">
+                        <p class="product__name">
+                          Автокрісло Cybex <br />
+                          Cloud T i-Size Wings
+                        </p>
+                        <div class="product__delete">
+                          <span>Видалити</span>
+                          <svg
+                            width="19"
+                            height="23"
+                            viewBox="0 0 19 23"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M12.875 22.4688H6.125C5.00612 22.4688 3.93306 22.0243 3.14189 21.2331C2.35072 20.4419 1.90625 19.3689 1.90625 18.25V8.125C1.90625 7.90122 1.99515 7.68661 2.15338 7.52838C2.31161 7.37015 2.52622 7.28125 2.75 7.28125C2.97378 7.28125 3.18839 7.37015 3.34662 7.52838C3.50486 7.68661 3.59375 7.90122 3.59375 8.125V18.25C3.59375 18.9213 3.86043 19.5652 4.33514 20.0399C4.80984 20.5146 5.45367 20.7812 6.125 20.7812H12.875C13.5463 20.7812 14.1902 20.5146 14.6649 20.0399C15.1396 19.5652 15.4062 18.9213 15.4062 18.25V8.125C15.4062 7.90122 15.4951 7.68661 15.6534 7.52838C15.8116 7.37015 16.0262 7.28125 16.25 7.28125C16.4738 7.28125 16.6884 7.37015 16.8466 7.52838C17.0049 7.68661 17.0938 7.90122 17.0938 8.125V18.25C17.0938 19.3689 16.6493 20.4419 15.8581 21.2331C15.0669 22.0243 13.9939 22.4688 12.875 22.4688Z"
+                              fill="#E93A53"
+                            />
+                            <path
+                              d="M17.9375 5.59375H1.0625C0.838724 5.59375 0.624113 5.50486 0.465879 5.34662C0.307645 5.18839 0.21875 4.97378 0.21875 4.75C0.21875 4.52622 0.307645 4.31161 0.465879 4.15338C0.624113 3.99515 0.838724 3.90625 1.0625 3.90625H17.9375C18.1613 3.90625 18.3759 3.99515 18.5341 4.15338C18.6924 4.31161 18.7812 4.52622 18.7812 4.75C18.7812 4.97378 18.6924 5.18839 18.5341 5.34662C18.3759 5.50486 18.1613 5.59375 17.9375 5.59375Z"
+                              fill="#E93A53"
+                            />
+                            <path
+                              d="M12.875 5.59375H6.125C5.90122 5.59375 5.68661 5.50486 5.52838 5.34662C5.37015 5.18839 5.28125 4.97378 5.28125 4.75V3.0625C5.28125 2.39117 5.54793 1.74734 6.02264 1.27264C6.49734 0.797935 7.14117 0.53125 7.8125 0.53125H11.1875C11.8588 0.53125 12.5027 0.797935 12.9774 1.27264C13.4521 1.74734 13.7188 2.39117 13.7188 3.0625V4.75C13.7188 4.97378 13.6299 5.18839 13.4716 5.34662C13.3134 5.50486 13.0988 5.59375 12.875 5.59375ZM6.96875 3.90625H12.0312V3.0625C12.0312 2.83872 11.9424 2.62411 11.7841 2.46588C11.6259 2.30764 11.4113 2.21875 11.1875 2.21875H7.8125C7.58872 2.21875 7.37411 2.30764 7.21588 2.46588C7.05764 2.62411 6.96875 2.83872 6.96875 3.0625V3.90625Z"
+                              fill="#E93A53"
+                            />
+                            <path
+                              d="M7.8125 17.4062C7.58872 17.4062 7.37411 17.3174 7.21588 17.1591C7.05765 17.0009 6.96875 16.7863 6.96875 16.5625V10.6562C6.96875 10.4325 7.05765 10.2179 7.21588 10.0596C7.37411 9.9014 7.58872 9.8125 7.8125 9.8125C8.03628 9.8125 8.25089 9.9014 8.40912 10.0596C8.56736 10.2179 8.65625 10.4325 8.65625 10.6562V16.5625C8.65625 16.7863 8.56736 17.0009 8.40912 17.1591C8.25089 17.3174 8.03628 17.4062 7.8125 17.4062Z"
+                              fill="#E93A53"
+                            />
+                            <path
+                              d="M11.1875 17.4062C10.9637 17.4062 10.7491 17.3174 10.5909 17.1591C10.4326 17.0009 10.3438 16.7863 10.3438 16.5625V10.6562C10.3438 10.4325 10.4326 10.2179 10.5909 10.0596C10.7491 9.9014 10.9637 9.8125 11.1875 9.8125C11.4113 9.8125 11.6259 9.9014 11.7841 10.0596C11.9424 10.2179 12.0312 10.4325 12.0312 10.6562V16.5625C12.0312 16.7863 11.9424 17.0009 11.7841 17.1591C11.6259 17.3174 11.4113 17.4062 11.1875 17.4062Z"
+                              fill="#E93A53"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <p class="product__price" data-value="17200">17 200 ₴</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="orders__bottom">
+                  <div class="orders__sum">
+                    <div class="orders__bottom-block">
+                      <h4 class="orders__bottom-title">Сума замовлення:</h4>
+                      <p class="orders__bottom-price">51 600 ₴</p>
+                    </div>
+                    <div class="orders__bottom-block">
+                      <h4
+                        class="orders__bottom-title orders__bottom-title--delivery"
+                      >
+                        Термін бронювання:
+                      </h4>
+                      <p class="orders__bottom-delivery">2 місяці</p>
+                    </div>
+                  </div>
+                  <div class="orders__total">
+                    <div class="orders__bottom-block">
+                      <h4 class="orders__bottom-title">Вартість бронювання:</h4>
+                      <div class="orders__bottom-option">
+                        <p class="orders__bottom-price booking__price">
+                          1000 ₴
+                        </p>
+
+                        <span class="order-details__bonus"
+                          >+4 200 бонусів
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <a href="##" class="btn-black">Залишити відгук</a>
-        </div>
-        <article class="feedback-body container">
-          <section class="feedback-card">
-            <div class="feedback-card__main">
-              <div class="feedback-card__left">
-                <div class="feedback-card__autor">
-                  <div class="feedback-card__avatar">
-                    <img src="img/photo.png" alt="avatar" />
-                  </div>
-                  <h3>
-                    Володимир <br />
-                    Романов
-                  </h3>
-                </div>
-                <div class="feedback-card__rating">
-                  <div class="feedback-card__stars">
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                  </div>
-                  <span>5.0</span>
-                </div>
-              </div>
-              <div class="feedback-card__text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <a href="##">Читати повністю</a>
-              </div>
-              <div class="feedback-card__right">30.04.2023</div>
-            </div>
-            <div class="feedback-card__product">
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-            </div>
-          </section>
-          <section class="feedback-card">
-            <div class="feedback-card__main">
-              <div class="feedback-card__left">
-                <div class="feedback-card__autor">
-                  <div class="feedback-card__avatar">
-                    <img src="img/photo.png" alt="avatar" />
-                  </div>
-                  <h3>
-                    Володимир <br />
-                    Романов
-                  </h3>
-                </div>
-                <div class="feedback-card__rating">
-                  <div class="feedback-card__stars">
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                  </div>
-                  <span>5.0</span>
-                </div>
-              </div>
-              <div class="feedback-card__text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <a href="##">Читати повністю</a>
-              </div>
-              <div class="feedback-card__right">30.04.2023</div>
-            </div>
-            <div class="feedback-card__product">
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-            </div>
-          </section>
-          <section class="feedback-card">
-            <div class="feedback-card__main">
-              <div class="feedback-card__left">
-                <div class="feedback-card__autor">
-                  <div class="feedback-card__avatar">
-                    <img src="img/photo.png" alt="avatar" />
-                  </div>
-                  <h3>
-                    Володимир <br />
-                    Романов
-                  </h3>
-                </div>
-                <div class="feedback-card__rating">
-                  <div class="feedback-card__stars">
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                  </div>
-                  <span>5.0</span>
-                </div>
-              </div>
-              <div class="feedback-card__text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <a href="##">Читати повністю</a>
-              </div>
-              <div class="feedback-card__right">30.04.2023</div>
-            </div>
-            <div class="feedback-card__product">
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-            </div>
-          </section>
-          <section class="feedback-card">
-            <div class="feedback-card__main">
-              <div class="feedback-card__left">
-                <div class="feedback-card__autor">
-                  <div class="feedback-card__avatar">
-                    <img src="img/photo.png" alt="avatar" />
-                  </div>
-                  <h3>
-                    Володимир <br />
-                    Романов
-                  </h3>
-                </div>
-                <div class="feedback-card__rating">
-                  <div class="feedback-card__stars">
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                  </div>
-                  <span>5.0</span>
-                </div>
-              </div>
-              <div class="feedback-card__text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <a href="##">Читати повністю</a>
-              </div>
-              <div class="feedback-card__right">30.04.2023</div>
-            </div>
-            <div class="feedback-card__product">
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-            </div>
-          </section>
-          <section class="feedback-card">
-            <div class="feedback-card__main">
-              <div class="feedback-card__left">
-                <div class="feedback-card__autor">
-                  <div class="feedback-card__avatar">
-                    <img src="img/photo.png" alt="avatar" />
-                  </div>
-                  <h3>
-                    Володимир <br />
-                    Романов
-                  </h3>
-                </div>
-                <div class="feedback-card__rating">
-                  <div class="feedback-card__stars">
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                  </div>
-                  <span>5.0</span>
-                </div>
-              </div>
-              <div class="feedback-card__text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <a href="##">Читати повністю</a>
-              </div>
-              <div class="feedback-card__right">30.04.2023</div>
-            </div>
-            <div class="feedback-card__product">
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-            </div>
-          </section>
-          <section class="feedback-card">
-            <div class="feedback-card__main">
-              <div class="feedback-card__left">
-                <div class="feedback-card__autor">
-                  <div class="feedback-card__avatar">
-                    <img src="img/photo.png" alt="avatar" />
-                  </div>
-                  <h3>
-                    Володимир <br />
-                    Романов
-                  </h3>
-                </div>
-                <div class="feedback-card__rating">
-                  <div class="feedback-card__stars">
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                  </div>
-                  <span>5.0</span>
-                </div>
-              </div>
-              <div class="feedback-card__text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <a href="##">Читати повністю</a>
-              </div>
-              <div class="feedback-card__right">30.04.2023</div>
-            </div>
-            <div class="feedback-card__product">
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-            </div>
-          </section>
-        </article>
-        <div class="more container">
-          <a href="##">
-            Більше відгуків
-            <svg
-              width="20"
-              height="11"
-              viewBox="0 0 20 11"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0.999321 1L9.69497 9.69565L18.3906 1"
-                stroke="#E93A53"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </a>
-        </div>
+        </section>
       </main>
       <footer class="footer">
         <div class="footer__content container">
@@ -939,31 +1139,6 @@
           </div>
         </div>
       </footer>
-      <div id="quickBuy" class="quick-buy">
-        <div class="quick-buy__content area">
-          <div class="quick-buy__header">
-            <h2>Швидка кокупка 1 клік</h2>
-            <span>Заповніть поле номеру телефону для швидкого придбання товару</span>
-          </div>
-          <div class="quick-buy__form">
-            <input type="text" placeholder="Ваше ПІБ" />
-            <input type="text" placeholder="+38 (___) ___ ____*" />
-            <div>
-              <label class="modal-checkbox">
-                <input type="checkbox" checked />
-                <span class="modal-checkbox__body"></span>
-                Я погоджуюсь з політикою конфіденційності
-              </label>
-            </div>
-          </div>
-          <a href="##" class="btn-black">Оформити замовлення</a>
-          <div id="closeQuickBuy" class="close-popup">
-            <svg viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M32 1L1 32M1 1L32 32" stroke="#E93A53" stroke-width="2" />
-            </svg>
-          </div>
-        </div>
-      </div>
       <div id="login" class="login">
         <div class="login__content area">
           <h2>Вхід</h2>
@@ -980,8 +1155,16 @@
           <a href="##" class="btn-red">Увійти</a>
           <a href="##" class="lost-pass">Забули пароль?</a>
           <div id="closeLogin" class="close-popup">
-            <svg viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M32 1L1 32M1 1L32 32" stroke="#E93A53" stroke-width="2" />
+            <svg
+              viewBox="0 0 33 33"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M32 1L1 32M1 1L32 32"
+                stroke="#E93A53"
+                stroke-width="2"
+              />
             </svg>
           </div>
         </div>
@@ -993,15 +1176,27 @@
             <article>
               <section>
                 <a href="##" class="cart__image">
-                  <img src="img/catalog-card.png" alt="cart__image">
+                  <img src="img/catalog-card.png" alt="cart__image" />
                 </a>
                 <div class="cart__section">
                   <div class="cart__section-content">
                     <a href="##">Автокрісло Cybex Cloud T i-Size Wings</a>
                     <div class="quantity-controls">
-                      <button class="minus" data-cart_item_key="" data-product_id="">-</button>
-                      <input type="text" readonly="" value="999">
-                      <button class="plus" data-cart_item_key="" data-product_id="">+</button>
+                      <button
+                        class="minus"
+                        data-cart_item_key=""
+                        data-product_id=""
+                      >
+                        -
+                      </button>
+                      <input type="text" readonly="" value="999" />
+                      <button
+                        class="plus"
+                        data-cart_item_key=""
+                        data-product_id=""
+                      >
+                        +
+                      </button>
                     </div>
                   </div>
                   <span>+200 бонусів</span>
@@ -1022,15 +1217,27 @@
               </section>
               <section>
                 <a href="##" class="cart__image">
-                  <img src="img/catalog-card.png" alt="cart__image">
+                  <img src="img/catalog-card.png" alt="cart__image" />
                 </a>
                 <div class="cart__section">
                   <div class="cart__section-content">
                     <a href="##">Автокрісло Cybex Cloud T i-Size Wings</a>
                     <div class="quantity-controls">
-                      <button class="minus" data-cart_item_key="" data-product_id="">-</button>
-                      <input type="text" readonly="" value="999">
-                      <button class="plus" data-cart_item_key="" data-product_id="">+</button>
+                      <button
+                        class="minus"
+                        data-cart_item_key=""
+                        data-product_id=""
+                      >
+                        -
+                      </button>
+                      <input type="text" readonly="" value="999" />
+                      <button
+                        class="plus"
+                        data-cart_item_key=""
+                        data-product_id=""
+                      >
+                        +
+                      </button>
                     </div>
                   </div>
                   <span>+200 бонусів</span>
@@ -1051,15 +1258,27 @@
               </section>
               <section>
                 <a href="##" class="cart__image">
-                  <img src="img/catalog-card.png" alt="cart__image">
+                  <img src="img/catalog-card.png" alt="cart__image" />
                 </a>
                 <div class="cart__section">
                   <div class="cart__section-content">
                     <a href="##">Автокрісло Cybex Cloud T i-Size Wings</a>
                     <div class="quantity-controls">
-                      <button class="minus" data-cart_item_key="" data-product_id="">-</button>
-                      <input type="text" readonly="" value="999">
-                      <button class="plus" data-cart_item_key="" data-product_id="">+</button>
+                      <button
+                        class="minus"
+                        data-cart_item_key=""
+                        data-product_id=""
+                      >
+                        -
+                      </button>
+                      <input type="text" readonly="" value="999" />
+                      <button
+                        class="plus"
+                        data-cart_item_key=""
+                        data-product_id=""
+                      >
+                        +
+                      </button>
                     </div>
                   </div>
                   <span>+200 бонусів</span>
@@ -1080,15 +1299,27 @@
               </section>
               <section>
                 <a href="##" class="cart__image">
-                  <img src="img/catalog-card.png" alt="cart__image">
+                  <img src="img/catalog-card.png" alt="cart__image" />
                 </a>
                 <div class="cart__section">
                   <div class="cart__section-content">
                     <a href="##">Автокрісло Cybex Cloud T i-Size Wings</a>
                     <div class="quantity-controls">
-                      <button class="minus" data-cart_item_key="" data-product_id="">-</button>
-                      <input type="text" readonly="" value="999">
-                      <button class="plus" data-cart_item_key="" data-product_id="">+</button>
+                      <button
+                        class="minus"
+                        data-cart_item_key=""
+                        data-product_id=""
+                      >
+                        -
+                      </button>
+                      <input type="text" readonly="" value="999" />
+                      <button
+                        class="plus"
+                        data-cart_item_key=""
+                        data-product_id=""
+                      >
+                        +
+                      </button>
                     </div>
                   </div>
                   <span>+200 бонусів</span>
@@ -1126,7 +1357,10 @@
                   <section class="swiper-slide">
                     <div class="cart-slider__image">
                       <img src="img/raincover.png" alt="raincover-photo" />
-                      <a href="##"><svg class="heart-icon"><use xlink:href="#heart-icon"></use></svg></a>
+                      <a href="##"
+                        ><svg class="heart-icon">
+                          <use xlink:href="#heart-icon"></use></svg
+                      ></a>
                     </div>
                     <div class="cart-slider__footer-card">
                       <div class="cart-slider__rating">
@@ -1148,12 +1382,8 @@
                         </a>
                       </div>
                       <div class="cart-slider__prices">
-                        <div class="current-price">
-                          17 200 ₴
-                        </div>
-                        <div class="old-price active">
-                          20 200 ₴
-                        </div>
+                        <div class="current-price">17 200 ₴</div>
+                        <div class="old-price active">20 200 ₴</div>
                       </div>
                       <a href="##" class="btn-black">
                         В кошик
@@ -1178,59 +1408,10 @@
                   <section class="swiper-slide">
                     <div class="cart-slider__image">
                       <img src="img/raincover.png" alt="raincover-photo" />
-                      <a href="##"><svg class="heart-icon"><use xlink:href="#heart-icon"></use></svg></a>
-                    </div>
-                    <div class="cart-slider__footer-card">
-                      <div class="cart-slider__rating">
-                        <div class="cart-slider__stars">
-                          <svg class="star"><use xlink:href="#star"></use></svg>
-                          <svg class="star"><use xlink:href="#star"></use></svg>
-                          <svg class="star"><use xlink:href="#star"></use></svg>
-                          <svg class="star"><use xlink:href="#star"></use></svg>
-                          <svg class="star"><use xlink:href="#star"></use></svg>
-                        </div>
-                        <span>5.0 (9)</span>
-                      </div>
-                      <div class="cart-slider__mid">
-                        <a href="##" class="cart-slider__title">
-                          Дощовик для люльки Cybex Gazelle S 2023
-                        </a>
-                        <a href="##" class="cart-slider__bag">
-                          <svg class="bag"><use xlink:href="#bag"></use></svg>
-                        </a>
-                      </div>
-                      <div class="cart-slider__prices">
-                        <div class="cart-slider__current-price current-price">
-                          17 200 ₴
-                        </div>
-                        <div class="cart-slider__old-price old-price">
-                          20 200 ₴
-                        </div>
-                      </div>
-                      <a href="##" class="btn-black">
-                        В кошик
-                        <svg
-                          width="16"
-                          height="17"
-                          viewBox="0 0 16 17"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
-                            stroke="white"
-                            stroke-width="1.16736"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                      </a>
-                    </div>
-                  </section>
-                  <section class="swiper-slide">
-                    <div class="cart-slider__image">
-                      <img src="img/raincover.png" alt="raincover-photo" />
-                      <a href="##"><svg class="heart-icon"><use xlink:href="#heart-icon"></use></svg></a>
+                      <a href="##"
+                        ><svg class="heart-icon">
+                          <use xlink:href="#heart-icon"></use></svg
+                      ></a>
                     </div>
                     <div class="cart-slider__footer-card">
                       <div class="cart-slider__rating">
@@ -1282,7 +1463,10 @@
                   <section class="swiper-slide">
                     <div class="cart-slider__image">
                       <img src="img/raincover.png" alt="raincover-photo" />
-                      <a href="##"><svg class="heart-icon"><use xlink:href="#heart-icon"></use></svg></a>
+                      <a href="##"
+                        ><svg class="heart-icon">
+                          <use xlink:href="#heart-icon"></use></svg
+                      ></a>
                     </div>
                     <div class="cart-slider__footer-card">
                       <div class="cart-slider__rating">
@@ -1334,7 +1518,10 @@
                   <section class="swiper-slide">
                     <div class="cart-slider__image">
                       <img src="img/raincover.png" alt="raincover-photo" />
-                      <a href="##"><svg class="heart-icon"><use xlink:href="#heart-icon"></use></svg></a>
+                      <a href="##"
+                        ><svg class="heart-icon">
+                          <use xlink:href="#heart-icon"></use></svg
+                      ></a>
                     </div>
                     <div class="cart-slider__footer-card">
                       <div class="cart-slider__rating">
@@ -1386,7 +1573,10 @@
                   <section class="swiper-slide">
                     <div class="cart-slider__image">
                       <img src="img/raincover.png" alt="raincover-photo" />
-                      <a href="##"><svg class="heart-icon"><use xlink:href="#heart-icon"></use></svg></a>
+                      <a href="##"
+                        ><svg class="heart-icon">
+                          <use xlink:href="#heart-icon"></use></svg
+                      ></a>
                     </div>
                     <div class="cart-slider__footer-card">
                       <div class="cart-slider__rating">
@@ -1438,7 +1628,10 @@
                   <section class="swiper-slide">
                     <div class="cart-slider__image">
                       <img src="img/raincover.png" alt="raincover-photo" />
-                      <a href="##"><svg class="heart-icon"><use xlink:href="#heart-icon"></use></svg></a>
+                      <a href="##"
+                        ><svg class="heart-icon">
+                          <use xlink:href="#heart-icon"></use></svg
+                      ></a>
                     </div>
                     <div class="cart-slider__footer-card">
                       <div class="cart-slider__rating">
@@ -1490,7 +1683,65 @@
                   <section class="swiper-slide">
                     <div class="cart-slider__image">
                       <img src="img/raincover.png" alt="raincover-photo" />
-                      <a href="##"><svg class="heart-icon"><use xlink:href="#heart-icon"></use></svg></a>
+                      <a href="##"
+                        ><svg class="heart-icon">
+                          <use xlink:href="#heart-icon"></use></svg
+                      ></a>
+                    </div>
+                    <div class="cart-slider__footer-card">
+                      <div class="cart-slider__rating">
+                        <div class="cart-slider__stars">
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                          <svg class="star"><use xlink:href="#star"></use></svg>
+                        </div>
+                        <span>5.0 (9)</span>
+                      </div>
+                      <div class="cart-slider__mid">
+                        <a href="##" class="cart-slider__title">
+                          Дощовик для люльки Cybex Gazelle S 2023
+                        </a>
+                        <a href="##" class="cart-slider__bag">
+                          <svg class="bag"><use xlink:href="#bag"></use></svg>
+                        </a>
+                      </div>
+                      <div class="cart-slider__prices">
+                        <div class="cart-slider__current-price current-price">
+                          17 200 ₴
+                        </div>
+                        <div class="cart-slider__old-price old-price">
+                          20 200 ₴
+                        </div>
+                      </div>
+                      <a href="##" class="btn-black">
+                        В кошик
+                        <svg
+                          width="16"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.62877 7.72073V4.17384C4.62877 2.21495 6.14744 0.626953 8.02082 0.626953C9.8942 0.626953 11.4129 2.21495 11.4129 4.17384V7.72073M3.10194 15.7012H12.9397C13.9399 15.7012 14.7229 14.8008 14.6281 13.7596L13.982 6.66587C13.8991 5.75567 13.168 5.06056 12.2936 5.06056H3.74805C2.87365 5.06056 2.14256 5.75568 2.05966 6.66587L1.41355 13.7596C1.31872 14.8008 2.10172 15.7012 3.10194 15.7012Z"
+                            stroke="white"
+                            stroke-width="1.16736"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </section>
+                  <section class="swiper-slide">
+                    <div class="cart-slider__image">
+                      <img src="img/raincover.png" alt="raincover-photo" />
+                      <a href="##"
+                        ><svg class="heart-icon">
+                          <use xlink:href="#heart-icon"></use></svg
+                      ></a>
                     </div>
                     <div class="cart-slider__footer-card">
                       <div class="cart-slider__rating">
@@ -1543,37 +1794,120 @@
               </div>
               <div class="cart-slider__buttons">
                 <div class="cart-btn-prev btn-swiper">
-                  <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="34" height="34" rx="2.5" stroke="#242424"/>
-                    <path d="M20.1927 11.668L14.3594 17.5013L20.1927 23.3346" stroke="#242424" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <svg
+                    width="35"
+                    height="35"
+                    viewBox="0 0 35 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width="34"
+                      height="34"
+                      rx="2.5"
+                      stroke="#242424"
+                    />
+                    <path
+                      d="M20.1927 11.668L14.3594 17.5013L20.1927 23.3346"
+                      stroke="#242424"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
                   </svg>
-                  <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="54" height="54" rx="4.5" stroke="#242424"/>
-                    <path d="M31 18L22 27.5L31 37" stroke="#242424" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>                    
+                  <svg
+                    width="55"
+                    height="55"
+                    viewBox="0 0 55 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width="54"
+                      height="54"
+                      rx="4.5"
+                      stroke="#242424"
+                    />
+                    <path
+                      d="M31 18L22 27.5L31 37"
+                      stroke="#242424"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                 </div>
                 <div class="cart-btn-next btn-swiper">
-                  <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="34" height="34" rx="2.5" stroke="#242424"/>
-                    <path d="M14.3581 23.332L20.1914 17.4987L14.3581 11.6654" stroke="#242424" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <svg
+                    width="35"
+                    height="35"
+                    viewBox="0 0 35 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width="34"
+                      height="34"
+                      rx="2.5"
+                      stroke="#242424"
+                    />
+                    <path
+                      d="M14.3581 23.332L20.1914 17.4987L14.3581 11.6654"
+                      stroke="#242424"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
                   </svg>
-                  <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="54" height="54" rx="4.5" stroke="#242424"/>
-                    <path d="M24 37L33 27.5L24 18" stroke="#242424" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>                    
+                  <svg
+                    width="55"
+                    height="55"
+                    viewBox="0 0 55 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width="54"
+                      height="54"
+                      rx="4.5"
+                      stroke="#242424"
+                    />
+                    <path
+                      d="M24 37L33 27.5L24 18"
+                      stroke="#242424"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                 </div>
               </div>
             </article>
           </div>
           <div id="closeCart" class="close-popup">
-            <svg viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M32 1L1 32M1 1L32 32" stroke="#E93A53" stroke-width="2" />
+            <svg
+              viewBox="0 0 33 33"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M32 1L1 32M1 1L32 32"
+                stroke="#E93A53"
+                stroke-width="2"
+              />
             </svg>
           </div>
         </div>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/app.min.js"></script>
   </body>
 </html>

@@ -12,9 +12,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css"
   />
   <link rel="stylesheet" href="css/style.min.css" />
-  <title>Відгуки</title>
+  <title>Конструктор</title>
 </head>
-
   <body>
     <div class="wrapper">
       <header class="header">
@@ -350,348 +349,674 @@
               <path d="M1.7483 6.53177L7.38583 11.9482L13.0234 6.53177C13.6501 5.92965 14.0021 5.113 14.0021 4.26147C14.0021 2.48826 12.506 1.05078 10.6604 1.05078C9.77411 1.05078 8.92413 1.38905 8.29743 1.99117L7.38583 2.86702L6.47423 1.99117C5.84753 1.38905 4.99755 1.05078 4.11127 1.05078C2.26568 1.05078 0.769531 2.48826 0.769531 4.26147C0.769531 5.113 1.1216 5.92965 1.7483 6.53177Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>                 
           </symbol>
         </svg>
-        <div class="breadcrambs">
-          <div class="container">
-            <span> <a href="index.html">Повернутися назад</a> / </span>
-            <span class="active">Відгуки</span>
-          </div>
-        </div>
-        <div class="feedback-header container">
-          <div class="feedback-header__left">
-            <h1>Відгуки</h1>
-            <a href="##">
-              <span>
-                Найновіші
-                <svg
-                  width="7"
-                  height="5"
-                  viewBox="0 0 7 5"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7 3.79191e-08L3.5 5L0 0L7 3.79191e-08Z"
-                    fill="#E93A53"
-                  />
-                </svg>
-              </span>
-              <svg
-                width="32"
-                height="22"
-                viewBox="0 0 32 22"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                class="new-icon"
-              >
-                <path
-                  d="M5 1V20.5M5 20.5L1 17M5 20.5L9 17"
-                  stroke="#E93A53"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M12.5 2H30.5M12.5 6.5H27.0946M12.5 11H24.1757M12.5 15.5H20.7703M12.5 20H17.3649"
-                  stroke="#3D3D3D"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </a>
-          </div>
-          <a href="##" class="btn-black">Залишити відгук</a>
-        </div>
-        <article class="feedback-body container">
-          <section class="feedback-card">
-            <div class="feedback-card__main">
-              <div class="feedback-card__left">
-                <div class="feedback-card__autor">
-                  <div class="feedback-card__avatar">
-                    <img src="img/photo.png" alt="avatar" />
-                  </div>
-                  <h3>
-                    Володимир <br />
-                    Романов
-                  </h3>
-                </div>
-                <div class="feedback-card__rating">
-                  <div class="feedback-card__stars">
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                  </div>
-                  <span>5.0</span>
+              <div class="breadcrambs">
+                <div class="container">
+                  <span><a href="index.html">Повернутися назад</a> / </span
+                  ><span class="active">Конструктор</span>
                 </div>
               </div>
-              <div class="feedback-card__text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <a href="##">Читати повністю</a>
-              </div>
-              <div class="feedback-card__right">30.04.2023</div>
-            </div>
-            <div class="feedback-card__product">
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-            </div>
-          </section>
-          <section class="feedback-card">
-            <div class="feedback-card__main">
-              <div class="feedback-card__left">
-                <div class="feedback-card__autor">
-                  <div class="feedback-card__avatar">
-                    <img src="img/photo.png" alt="avatar" />
-                  </div>
-                  <h3>
-                    Володимир <br />
-                    Романов
-                  </h3>
+              <div class="builder container">
+                <h1>Конструктор</h1>
+                <div class="builder__content">
+                  <aside>
+                    <div class="builder__model">
+                      <h2>Оберіть модель</h2>
+                      <article>
+                        <a href="##" class="active">
+                          <div class="builder__model-image">
+                            <img src="img/model-image1.png" alt="model-image">
+                          </div>
+                          <h3>Cybex Priam</h3>
+                        </a>
+                        <a href="##">
+                          <div class="builder__model-image">
+                            <img src="img/model-image2.png" alt="model-image">
+                          </div>
+                          <h3>Cybex Mios</h3>
+                        </a>
+                        <a href="##">
+                          <div class="builder__model-image">
+                            <img src="img/model-image3.png" alt="model-image">
+                          </div>
+                          <h3>Cybex Balios s Lux</h3>
+                        </a>
+                      </article>
+                    </div>
+                    <div class="builder__kit">
+                      <h2>Зберіть свій комплект</h2>
+                      <article>
+                        <a href="##" class="active">
+                          <div class="builder__kit-image">
+                            <img src="img/kit-image1.png" alt="kit-image">
+                            <svg class="checkpoint-icon">
+                              <use xlink:href="#checkpoint-icon"></use>
+                            </svg>
+                          </div>
+                          <span>Шасі</span>
+                        </a>
+                        <a href="##">
+                          <div class="builder__kit-image">
+                            <img src="img/kit-image2.png" alt="kit-image">
+                          </div>
+                          <span>Люлька</span>
+                        </a>
+                        <a href="##">
+                          <div class="builder__kit-image">
+                            <img src="img/kit-image3.png" alt="kit-image">
+                          </div>
+                          <span>Автокрісло</span>
+                        </a>
+                        <a href="##">
+                          <div class="builder__kit-image">
+                            <img src="img/kit-image4.png" alt="kit-image">
+                          </div>
+                          <span>Текстиль</span>
+                        </a>
+                        <a href="##">
+                          <div class="builder__kit-image">
+                            <img src="img/kit-image5.png" alt="kit-image">
+                          </div>
+                          <span>Аксесуари</span>
+                        </a>
+                      </article>
+                    </div>
+                    <div class="package">
+                      <h2>Ваш комплект</h2>
+                      <article>
+                        <section>
+                          <a href="##" class="package__image">
+                            <img src="img/catalog-card.png" alt="package__image">
+                          </a>
+                          <div class="package__section-content">
+                            <div class="package__section-top">
+                              <a href="##" class="package__section-title">Автокрісло Cybex Cloud T i-Size Wings</a>
+                              <a href="##" class="package__delete">
+                                <svg class="delete-icon">
+                                  <use xlink:href="#delete"></use>
+                                </svg>
+                                <span>Видалити</span>
+                              </a>
+                            </div>
+                            <div class="package__prices">
+                              <span class="current-price">17 200 ₴</span>
+                              <span class="old-price active">20 200 ₴</span>
+                            </div>
+                          </div>
+                        </section>
+                        <section>
+                          <a href="##" class="package__image">
+                            <img src="img/catalog-card.png" alt="package__image">
+                          </a>
+                          <div class="package__section-content">
+                            <div class="package__section-top">
+                              <a href="##" class="package__section-title">Автокрісло Cybex Cloud T i-Size Wings</a>
+                              <a href="##" class="package__delete">
+                                <svg class="delete-icon">
+                                  <use xlink:href="#delete"></use>
+                                </svg>
+                                <span>Видалити</span>
+                              </a>
+                            </div>
+                            <div class="package__prices">
+                              <span class="current-price">17 200 ₴</span>
+                              <span class="old-price active">20 200 ₴</span>
+                            </div>
+                          </div>
+                        </section>
+                        <section>
+                          <a href="##" class="package__image">
+                            <img src="img/catalog-card.png" alt="package__image">
+                          </a>
+                          <div class="package__section-content">
+                            <div class="package__section-top">
+                              <a href="##" class="package__section-title">Автокрісло Cybex Cloud T i-Size Wings</a>
+                              <a href="##" class="package__delete">
+                                <svg class="delete-icon">
+                                  <use xlink:href="#delete"></use>
+                                </svg>
+                                <span>Видалити</span>
+                              </a>
+                            </div>
+                            <div class="package__prices">
+                              <span class="current-price">17 200 ₴</span>
+                              <span class="old-price active">20 200 ₴</span>
+                            </div>
+                          </div>
+                        </section>
+                        <section>
+                          <a href="##" class="package__image">
+                            <img src="img/catalog-card.png" alt="package__image">
+                          </a>
+                          <div class="package__section-content">
+                            <div class="package__section-top">
+                              <a href="##" class="package__section-title">Автокрісло Cybex Cloud T i-Size Wings</a>
+                              <a href="##" class="package__delete">
+                                <svg class="delete-icon">
+                                  <use xlink:href="#delete"></use>
+                                </svg>
+                                <span>Видалити</span>
+                              </a>
+                            </div>
+                            <div class="package__prices">
+                              <span class="current-price">17 200 ₴</span>
+                              <span class="old-price active">20 200 ₴</span>
+                            </div>
+                          </div>
+                        </section>
+                      </article>
+                      <div class="package__totals">
+                        <div class="package__totals-item">
+                          <span class="package__count-title">Всього</span>
+                          <span class="package__count">103 403 ₴</span>
+                        </div>
+                        <div class="package__totals-item">
+                          <span class="package__count-title">Кількість товарів:</span>
+                          <span class="package__count">5 шт</span>
+                        </div>
+                      </div>
+                      <div class="package__buttons">
+                        <a href="##" class="btn-black">Оформити замовлення</a>
+                        <a href="##" class="btn-red">Забронювати до пологів</a>
+                        <a href="##" class="btn-white">Оформити розстрочку</a>
+                      </div>
+                    </div>
+                  </aside>
+                  <div class="builder__body">
+                    <article>
+                      <section>
+                        <a href="card.html" class="builder__image">
+                          <img src="img/raincover.png" alt="builder__image"/>
+                        </a>
+                        <div class="builder__colors">
+                        </div>
+                        <a href="card.html" class="builder-card__title">
+                          1
+                        </a>
+                        <div class="builder-card__footer">
+                          <div class="builder-card__prices">
+                            <span class="current-price">17 200 ₴</span>
+                            <span class="old-price active">20 200 ₴</span>
+                          </div>
+                          <div class="builder-card__buttons">
+                            <a href="##" class="btn-black">
+                              В кошик
+                              <svg
+                                viewBox="0 0 19 19"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+                                  stroke="white"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </a>
+                            <a href="#quickView" class="btn-white open-popup">Переглянути</a>
+                          </div>
+                        </div>
+                      </section>
+                      <section>
+                        <a href="card.html" class="builder__image">
+                          <img src="img/raincover.png" alt="builder__image"/>
+                        </a>
+                        <div class="builder__colors">
+                          <div class="builder__gallary">
+                            <div class="builder__wrapper swiper-wrapper">
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                            </div>
+                          </div>
+                          <div class="builder__slider-buttons">
+                            <div class="builder-btn-prev btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.4375 14.9531L1.40792 7.92355L8.4375 0.893973" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                            <div class="builder-btn-next btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.65625 0.894531L7.68583 7.92411L0.65625 14.9537" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="card.html" class="builder-card__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </a>
+                        <div class="builder-card__footer">
+                          <div class="builder-card__prices">
+                            <span class="current-price">17 200 ₴</span>
+                            <span class="old-price">20 200 ₴</span>
+                          </div>
+                          <div class="builder-card__buttons">
+                            <a href="##" class="btn-black">
+                              В кошик
+                              <svg
+                                viewBox="0 0 19 19"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+                                  stroke="white"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </a>
+                            <a href="#quickView" class="btn-white open-popup">Переглянути</a>
+                          </div>
+                        </div>
+                      </section>
+                      <section>
+                        <a href="card.html" class="builder__image">
+                          <img src="img/raincover.png" alt="builder__image"/>
+                        </a>
+                        <div class="builder__colors">
+                        </div>
+                        <a href="card.html" class="builder-card__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </a>
+                        <div class="builder-card__footer">
+                          <div class="builder-card__prices">
+                            <span class="current-price">17 200 ₴</span>
+                            <span class="old-price">20 200 ₴</span>
+                          </div>
+                          <div class="builder-card__buttons">
+                            <a href="##" class="btn-black">
+                              В кошик
+                              <svg
+                                viewBox="0 0 19 19"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+                                  stroke="white"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </a>
+                            <a href="#quickView" class="btn-white open-popup">Переглянути</a>
+                          </div>
+                        </div>
+                      </section>
+                      <section>
+                        <a href="card.html" class="builder__image">
+                          <img src="img/raincover.png" alt="builder__image"/>
+                        </a>
+                        <div class="builder__colors">
+                          <div class="builder__gallary">
+                            <div class="builder__wrapper swiper-wrapper">
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                            </div>
+                          </div>
+                          <div class="builder__slider-buttons">
+                            <div class="builder-btn-prev btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.4375 14.9531L1.40792 7.92355L8.4375 0.893973" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                            <div class="builder-btn-next btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.65625 0.894531L7.68583 7.92411L0.65625 14.9537" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="card.html" class="builder-card__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </a>
+                        <div class="builder-card__footer">
+                          <div class="builder-card__prices">
+                            <span class="current-price">17 200 ₴</span>
+                            <span class="old-price">20 200 ₴</span>
+                          </div>
+                          <div class="builder-card__buttons">
+                            <a href="##" class="btn-black">
+                              В кошик
+                              <svg
+                                viewBox="0 0 19 19"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+                                  stroke="white"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </a>
+                            <a href="#quickView" class="btn-white open-popup">Переглянути</a>
+                          </div>
+                        </div>
+                      </section>
+                      <section>
+                        <a href="card.html" class="builder__image">
+                          <img src="img/raincover.png" alt="builder__image"/>
+                        </a>
+                        <div class="builder__colors">
+                          <div class="builder__gallary">
+                            <div class="builder__wrapper swiper-wrapper">
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                            </div>
+                          </div>
+                          <div class="builder__slider-buttons">
+                            <div class="builder-btn-prev btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.4375 14.9531L1.40792 7.92355L8.4375 0.893973" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                            <div class="builder-btn-next btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.65625 0.894531L7.68583 7.92411L0.65625 14.9537" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="card.html" class="builder-card__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </a>
+                        <div class="builder-card__footer">
+                          <div class="builder-card__prices">
+                            <span class="current-price">17 200 ₴</span>
+                            <span class="old-price">20 200 ₴</span>
+                          </div>
+                          <div class="builder-card__buttons">
+                            <a href="##" class="btn-black">
+                              В кошик
+                              <svg
+                                viewBox="0 0 19 19"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+                                  stroke="white"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </a>
+                            <a href="#quickView" class="btn-white open-popup">Переглянути</a>
+                          </div>
+                        </div>
+                      </section>
+                      <section>
+                        <a href="card.html" class="builder__image">
+                          <img src="img/raincover.png" alt="builder__image"/>
+                        </a>
+                        <div class="builder__colors">
+                          <div class="builder__gallary">
+                            <div class="builder__wrapper swiper-wrapper">
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                            </div>
+                          </div>
+                          <div class="builder__slider-buttons">
+                            <div class="builder-btn-prev btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.4375 14.9531L1.40792 7.92355L8.4375 0.893973" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                            <div class="builder-btn-next btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.65625 0.894531L7.68583 7.92411L0.65625 14.9537" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="card.html" class="builder-card__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </a>
+                        <div class="builder-card__footer">
+                          <div class="builder-card__prices">
+                            <span class="current-price">17 200 ₴</span>
+                            <span class="old-price">20 200 ₴</span>
+                          </div>
+                          <div class="builder-card__buttons">
+                            <a href="##" class="btn-black">
+                              В кошик
+                              <svg
+                                viewBox="0 0 19 19"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+                                  stroke="white"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </a>
+                            <a href="#quickView" class="btn-white open-popup">Переглянути</a>
+                          </div>
+                        </div>
+                      </section>
+                      <section>
+                        <a href="card.html" class="builder__image">
+                          <img src="img/raincover.png" alt="builder__image"/>
+                        </a>
+                        <div class="builder__colors">
+                          <div class="builder__gallary">
+                            <div class="builder__wrapper swiper-wrapper">
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                            </div>
+                          </div>
+                          <div class="builder__slider-buttons">
+                            <div class="builder-btn-prev btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.4375 14.9531L1.40792 7.92355L8.4375 0.893973" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                            <div class="builder-btn-next btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.65625 0.894531L7.68583 7.92411L0.65625 14.9537" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="card.html" class="builder-card__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </a>
+                        <div class="builder-card__footer">
+                          <div class="builder-card__prices">
+                            <span class="current-price">17 200 ₴</span>
+                            <span class="old-price">20 200 ₴</span>
+                          </div>
+                          <div class="builder-card__buttons">
+                            <a href="##" class="btn-black">
+                              В кошик
+                              <svg
+                                viewBox="0 0 19 19"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+                                  stroke="white"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </a>
+                            <a href="#quickView" class="btn-white open-popup">Переглянути</a>
+                          </div>
+                        </div>
+                      </section>
+                      <section>
+                        <a href="card.html" class="builder__image">
+                          <img src="img/raincover.png" alt="builder__image"/>
+                        </a>
+                        <div class="builder__colors">
+                          <div class="builder__gallary">
+                            <div class="builder__wrapper swiper-wrapper">
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                            </div>
+                          </div>
+                          <div class="builder__slider-buttons">
+                            <div class="builder-btn-prev btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.4375 14.9531L1.40792 7.92355L8.4375 0.893973" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                            <div class="builder-btn-next btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.65625 0.894531L7.68583 7.92411L0.65625 14.9537" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="card.html" class="builder-card__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </a>
+                        <div class="builder-card__footer">
+                          <div class="builder-card__prices">
+                            <span class="current-price">17 200 ₴</span>
+                            <span class="old-price">20 200 ₴</span>
+                          </div>
+                          <div class="builder-card__buttons">
+                            <a href="##" class="btn-black">
+                              В кошик
+                              <svg
+                                viewBox="0 0 19 19"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+                                  stroke="white"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </a>
+                            <a href="#quickView" class="btn-white open-popup">Переглянути</a>
+                          </div>
+                        </div>
+                      </section>
+                      <section>
+                        <a href="card.html" class="builder__image">
+                          <img src="img/raincover.png" alt="builder__image"/>
+                        </a>
+                        <div class="builder__colors">
+                          <div class="builder__gallary">
+                            <div class="builder__wrapper swiper-wrapper">
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                              <a href="##" class="swiper-slide builder-green"></a>
+                              <a href="##" class="swiper-slide builder-blue"></a>
+                              <a href="##" class="swiper-slide builder-gray"></a>
+                              <a href="##" class="swiper-slide builder-red"></a>
+                            </div>
+                          </div>
+                          <div class="builder__slider-buttons">
+                            <div class="builder-btn-prev btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.4375 14.9531L1.40792 7.92355L8.4375 0.893973" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                            <div class="builder-btn-next btn-swiper">
+                              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.65625 0.894531L7.68583 7.92411L0.65625 14.9537" stroke="#242424" stroke-width="1.08147" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="card.html" class="builder-card__title">
+                          Автокрісло Cybex Cloud T i-Size
+                        </a>
+                        <div class="builder-card__footer">
+                          <div class="builder-card__prices">
+                            <span class="current-price">17 200 ₴</span>
+                            <span class="old-price">20 200 ₴</span>
+                          </div>
+                          <div class="builder-card__buttons">
+                            <a href="##" class="btn-black">
+                              В кошик
+                              <svg
+                                viewBox="0 0 19 19"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+                                  stroke="white"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </a>
+                            <a href="#quickView" class="btn-white open-popup">Переглянути</a>
+                          </div>
+                        </div>
+                      </section>
+                    </article>
+                    <div class="builder__pagination">
+                      <a href="##" class="builder__pagination-text active">Перша</a>
+                      <a href="##" class="builder__pagination-number active">1</a>
+                      <a href="##" class="builder__pagination-number">2</a>
+                      <span>...</span>
+                      <a href="##" class="builder__pagination-number">10</a>
+                      <a href="##" class="builder__pagination-text">Остання</a>
+                    </div>
                 </div>
-                <div class="feedback-card__rating">
-                  <div class="feedback-card__stars">
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                  </div>
-                  <span>5.0</span>
-                </div>
               </div>
-              <div class="feedback-card__text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <a href="##">Читати повністю</a>
-              </div>
-              <div class="feedback-card__right">30.04.2023</div>
-            </div>
-            <div class="feedback-card__product">
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-            </div>
-          </section>
-          <section class="feedback-card">
-            <div class="feedback-card__main">
-              <div class="feedback-card__left">
-                <div class="feedback-card__autor">
-                  <div class="feedback-card__avatar">
-                    <img src="img/photo.png" alt="avatar" />
-                  </div>
-                  <h3>
-                    Володимир <br />
-                    Романов
-                  </h3>
-                </div>
-                <div class="feedback-card__rating">
-                  <div class="feedback-card__stars">
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                  </div>
-                  <span>5.0</span>
-                </div>
-              </div>
-              <div class="feedback-card__text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <a href="##">Читати повністю</a>
-              </div>
-              <div class="feedback-card__right">30.04.2023</div>
-            </div>
-            <div class="feedback-card__product">
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-            </div>
-          </section>
-          <section class="feedback-card">
-            <div class="feedback-card__main">
-              <div class="feedback-card__left">
-                <div class="feedback-card__autor">
-                  <div class="feedback-card__avatar">
-                    <img src="img/photo.png" alt="avatar" />
-                  </div>
-                  <h3>
-                    Володимир <br />
-                    Романов
-                  </h3>
-                </div>
-                <div class="feedback-card__rating">
-                  <div class="feedback-card__stars">
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                  </div>
-                  <span>5.0</span>
-                </div>
-              </div>
-              <div class="feedback-card__text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <a href="##">Читати повністю</a>
-              </div>
-              <div class="feedback-card__right">30.04.2023</div>
-            </div>
-            <div class="feedback-card__product">
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-            </div>
-          </section>
-          <section class="feedback-card">
-            <div class="feedback-card__main">
-              <div class="feedback-card__left">
-                <div class="feedback-card__autor">
-                  <div class="feedback-card__avatar">
-                    <img src="img/photo.png" alt="avatar" />
-                  </div>
-                  <h3>
-                    Володимир <br />
-                    Романов
-                  </h3>
-                </div>
-                <div class="feedback-card__rating">
-                  <div class="feedback-card__stars">
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                  </div>
-                  <span>5.0</span>
-                </div>
-              </div>
-              <div class="feedback-card__text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <a href="##">Читати повністю</a>
-              </div>
-              <div class="feedback-card__right">30.04.2023</div>
-            </div>
-            <div class="feedback-card__product">
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-            </div>
-          </section>
-          <section class="feedback-card">
-            <div class="feedback-card__main">
-              <div class="feedback-card__left">
-                <div class="feedback-card__autor">
-                  <div class="feedback-card__avatar">
-                    <img src="img/photo.png" alt="avatar" />
-                  </div>
-                  <h3>
-                    Володимир <br />
-                    Романов
-                  </h3>
-                </div>
-                <div class="feedback-card__rating">
-                  <div class="feedback-card__stars">
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                    <svg class="star"><use xlink:href="#star"></use></svg>
-                  </div>
-                  <span>5.0</span>
-                </div>
-              </div>
-              <div class="feedback-card__text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <a href="##">Читати повністю</a>
-              </div>
-              <div class="feedback-card__right">30.04.2023</div>
-            </div>
-            <div class="feedback-card__product">
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-              <div class="feedback-card__image">
-                <img src="img/product.png" alt="pram" />
-              </div>
-            </div>
-          </section>
-        </article>
-        <div class="more container">
-          <a href="##">
-            Більше відгуків
-            <svg
-              width="20"
-              height="11"
-              viewBox="0 0 20 11"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0.999321 1L9.69497 9.69565L18.3906 1"
-                stroke="#E93A53"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </a>
-        </div>
       </main>
       <footer class="footer">
         <div class="footer__content container">
@@ -1572,8 +1897,210 @@
           </div>
         </div>
       </div>
+      <div id="quickView" class="quick-view">
+        <div class="quick-view__content area">
+          <div class="quick-view__gallery">
+            <div class="gallery-view-mini">
+              <div class="swiper-wrapper">
+                <div class="gallery-view-mini__image swiper-slide">
+                  <img src="img/card-image2.jpg" alt="card-image" />
+                </div>
+                <div class="gallery-view-mini__image swiper-slide">
+                  <img src="img/card-image3.jpg" alt="card-image" />
+                </div>
+                <div class="gallery-view-mini__image swiper-slide">
+                  <img src="img/card-image4.jpg" alt="card-image" />
+                </div>
+                <div class="gallery-view-mini__image swiper-slide">
+                  <img src="img/card-image5.png" alt="card-image" />
+                </div>
+                <div class="gallery-view-mini__image swiper-slide">
+                  <img src="img/card-image6.png" alt="card-image" />
+                </div>
+              </div>
+            </div>
+            <div thumbsSlider="" class="gallery-view">
+              <div class="swiper-wrapper">
+                <a
+                  href="img/card-image2.jpg"
+                  class="gallery-view__image swiper-slide"
+                >
+                  <img src="img/card-image2.jpg" alt="card-image" />
+                </a>
+                <a
+                  href="img/card-image3.jpg"
+                  class="gallery-view__image swiper-slide"
+                >
+                  <img src="img/card-image3.jpg" alt="card-image" />
+                </a>
+                <a
+                  href="img/card-image4.jpg"
+                  class="gallery-view__image swiper-slide"
+                >
+                  <img src="img/card-image4.jpg" alt="card-image" />
+                </a>
+                <a
+                  href="img/card-image5.png"
+                  class="gallery-view__image swiper-slide"
+                >
+                  <img src="img/card-image5.png" alt="card-image" />
+                </a>
+                <a
+                  href="img/card-image6.png"
+                  class="gallery-view__image swiper-slide"
+                >
+                  <img src="img/card-image6.png" alt="card-image" />
+                </a>
+              </div>
+              <div class="gallery-view__slider-buttons">
+                <div class="gallery-view-btn-prev btn-swiper">
+                  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="39" height="39" rx="4.5" stroke="#242424"/>
+                    <path d="M21.2422 24L16.9995 19.7573L21.2422 15.5146" stroke="#242424" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="gallery-view-btn-next btn-swiper">
+                  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="39" height="39" rx="4.5" stroke="#242424"/>
+                    <path d="M19 16L23.2427 20.2427L19 24.4854" stroke="#242424" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="quick-view__body">
+            <div class="quick-view__header">
+              <span>Код: 000001</span>
+              <h2>Автокрісло Cloud T i-Size</h2>
+            </div>
+            <div class="quick-view__colors">
+              <h3>Колір</h3>
+              <div class="quick-view__colors-block">
+                <a href="##" class="shortstory__card active">
+                  <div class="shortstory__image">
+                    <img src="img/gray-elipse.png" alt="color-elipse">
+                    <svg class="checkpoint-icon">
+                      <use xlink:href="#checkpoint-icon"></use>
+                    </svg>
+                  </div>
+                </a>
+                <a href="##" class="shortstory__card">
+                  <div class="shortstory__image">
+                    <img src="img/green-elipse.png" alt="color-elipse">
+                    <svg class="checkpoint-icon">
+                      <use xlink:href="#checkpoint-icon"></use>
+                    </svg>
+                  </div>
+                </a>
+                <a href="##" class="shortstory__card">
+                  <div class="shortstory__image">
+                    <img src="img/medium-gray-elipse.png" alt="color-elipse">
+                    <svg class="checkpoint-icon">
+                      <use xlink:href="#checkpoint-icon"></use>
+                    </svg>
+                  </div>
+                </a>
+                <a href="##" class="shortstory__card">
+                  <div class="shortstory__image">
+                    <img src="img/light-gray-elipse.png" alt="color-elipse">
+                    <svg class="checkpoint-icon">
+                      <use xlink:href="#checkpoint-icon"></use>
+                    </svg>
+                  </div>
+                </a>
+                <a href="##" class="shortstory__card">
+                  <div class="shortstory__image">
+                    <img src="img/begie-elipse.png" alt="color-elipse">
+                    <svg class="checkpoint-icon">
+                      <use xlink:href="#checkpoint-icon"></use>
+                    </svg>
+                  </div>
+                </a>
+                <a href="##" class="shortstory__card">
+                  <div class="shortstory__image">
+                    <img src="img/pink-elipse.png" alt="color-elipse">
+                    <svg class="checkpoint-icon">
+                      <use xlink:href="#checkpoint-icon"></use>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="short-description">
+              <div class="short-description__body">
+                <p><a href="https://www.crabsss.site/product/avtokrislo-cybex-cloud-t-i-size-by-karolina-kurkova-one-love/">Особливості автокрісла Cybex Cloud T i-Size</a></p>
+                <div><a href="https://www.crabsss.site/product/avtokrislo-cybex-cloud-t-i-size-by-karolina-kurkova-one-love/">Енергопоглинаючий корпус крісла виготовлений з гнучкого матеріалу, який поглинає енергію удару і має додатковий бічний захист L.S.P. Для Cloud T i-Size наша перевірена система лінійного захисту від бічних ударів (LSP) була ще більше вдосконалена. Перші сили удару при аварії зменшуються завдяки подовженому бічному захиснику, який звернений до дверей. Тим часом гнучка оболонка автокрісла зменшує до 25% сил удару, направляючи їх від вашої дитини.</a></div>
+                <div></div>
+                <div><a href="https://www.crabsss.site/product/avtokrislo-cybex-cloud-t-i-size-by-karolina-kurkova-one-love/">Безпека є головним пріоритетом для будь-якого автокрісла Cybex. Гнучка структура матеріалу поглинає сили удару і допомагає відвести його від дитини. Вкладка для новонародженого забезпечує майже рівне положення новонародженого. Це зводить до мінімуму ризик перекидання голови вперед під час сну, що може спричинити затруднення дихання. Вкладку можна зняти, коли зріст вашої дитини перевищить 60 см. Вбудований капюшон забезпечує додатковий захист від вітру і сонячних променів UPF50 +. Підголівник регулюється в 12 положеннях, максимально підлаштовуючись під вашу дитину. Автокрісло в автомобілі можна кріпити штатними ременями безпеки або за допомогою бази Cybex base Т (база не входить до комплекту), в подальшому на цю базу можна встановити автокрісло наступної вікової групи Sirona Т.</a></div>
+                <div></div>
+                <div><a href="https://www.crabsss.site/product/avtokrislo-cybex-cloud-t-i-size-by-karolina-kurkova-one-love/">Автокрісло Cybex Cloud T i-Size встановлюється на всі моделі колясок Cybex, а також на коляски практично всіх європейських виробників. Відмінною рисою даної моделі автокрісла є можливість перевести спинку автокрісла практично в горизонтальне положення. Ця функція була розроблена німецькими експертами з безпеки CYBEX і дозволяє вашій дитині зручно лежати в ергономічно правильному положенні. У поєднанні з колясками Cybex Cloud T i-Size перетворюється в практичну систему подорожей протягом перших місяців, щоб ваша дитина могла відпочити з оптимальним захистом.</a></div>
+                <div></div>
+                <div><a href="https://www.crabsss.site/product/avtokrislo-cybex-cloud-t-i-size-by-karolina-kurkova-one-love/">Вага автокрісла:</a></div>
+                <div>
+                <ul>
+                <li><a href="https://www.crabsss.site/product/avtokrislo-cybex-cloud-t-i-size-by-karolina-kurkova-one-love/">вага: 4,5 кг.</a></li>
+                </ul>
+                </div>
+                <div><a href="https://www.crabsss.site/product/avtokrislo-cybex-cloud-t-i-size-by-karolina-kurkova-one-love/">Розміри автокрісла:</a></div>
+                <div>
+                <ul>
+                <li><a href="https://www.crabsss.site/product/avtokrislo-cybex-cloud-t-i-size-by-karolina-kurkova-one-love/">&nbsp;внутрішні розміри: 23 х 22 х 64,5-75 см;</a></li>
+                <li><a href="https://www.crabsss.site/product/avtokrislo-cybex-cloud-t-i-size-by-karolina-kurkova-one-love/">&nbsp;зовнішні розміри: 38-60 х 44 х 64,5-75 см.</a></li>
+                </ul>
+                </div>
+                <div><a href="https://www.crabsss.site/product/avtokrislo-cybex-cloud-t-i-size-by-karolina-kurkova-one-love/">&nbsp;Cybex Cloud T i-Size – це стильне, якісне і надійне німецьке автокрісло групи 0+. Купуйте у нас на сайті зручне автокрісло Cybex і насолоджуйтеся кожною поїздкою з вашою дитиною!</a></div>
+                <p><a href="https://www.crabsss.site/product/avtokrislo-cybex-cloud-t-i-size-by-karolina-kurkova-one-love/"><img src="http://server-v1.servep2p.com:8085/f5fbca86-57bb-11ee-bbee-0800276bee5a.jpeg"><img src="http://server-v1.servep2p.com:8085/f5fbca87-57bb-11ee-bbee-0800276bee5a.jpeg"><img src="http://server-v1.servep2p.com:8085/f5fbca88-57bb-11ee-bbee-0800276bee5a.jpeg"><img src="http://server-v1.servep2p.com:8085/f5fbca89-57bb-11ee-bbee-0800276bee5a.jpeg"><img src="http://server-v1.servep2p.com:8085/f5fbca8a-57bb-11ee-bbee-0800276bee5a.jpeg"><img src="http://server-v1.servep2p.com:8085/f5fbca8b-57bb-11ee-bbee-0800276bee5a.jpeg"></a></p>
+              </div>
+              <a href="##" class="read-more-button">Читати більше...</a>
+            </div>
+            <div class="quick-view__prices">
+              <div class="current-price">17 200 ₴</div>
+              <div class="old-price">20 200 ₴</div>
+            </div>
+            <div class="quick-view__footer">
+              <a href="##" class="btn-black">
+                <span>Додати в кошик</span>
+                <svg
+                  width="19"
+                  height="19"
+                  viewBox="0 0 19 19"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.14139 9V5C5.14139 2.79086 7.09281 1 9.5 1C11.9072 1 13.8586 2.79086 13.8586 5V9M3.1795 18H15.8205C17.1057 18 18.1118 16.9845 17.99 15.8104L17.1598 7.81038C17.0533 6.78391 16.1139 6 14.9903 6H4.00971C2.88615 6 1.94675 6.78391 1.84022 7.81038L1.01001 15.8104C0.888159 16.9846 1.89427 18 3.1795 18Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+              <div class="order-tag">
+                <svg width="31" height="20" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.71429 1H19C19.5523 1 20 1.44772 20 2V2.69643M27.4643 8.46429H21C20.4477 8.46429 20 8.01657 20 7.46428V2.69643M27.4643 8.46429L28.9289 10.2219C29.0787 10.4016 29.1607 10.6281 29.1607 10.862V15.6071C29.1607 16.1594 28.713 16.6071 28.1607 16.6071H26.1071M27.4643 8.46429L24.6924 3.22854C24.5191 2.90118 24.179 2.69643 23.8086 2.69643H20M19.6607 16.6071H13.8929M7.44643 16.6071H3.71429M8.125 12.1964H2.69643M10.5 8.46429H1M11.8571 4.73214H2.69643" stroke="#E93A53" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="10.5003" cy="16.6077" r="2.39286" stroke="#E93A53" stroke-width="2"/>
+                  <circle cx="22.7132" cy="16.6077" r="2.39286" stroke="#E93A53" stroke-width="2"/>
+                </svg>                  
+                <span>Під замовлення</span>
+              </div>
+            </div>
+          </div>
+          <div id="closeQuickView" class="close-popup">
+            <svg viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 1L1 32M1 1L32 32" stroke="#E93A53" stroke-width="2" />
+            </svg>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        baguetteBox.run(".gallery-view");
+      });
+    </script>
     <script src="js/app.min.js"></script>
   </body>
 </html>
